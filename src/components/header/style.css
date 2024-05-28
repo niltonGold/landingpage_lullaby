@@ -1,0 +1,25 @@
+
+.aguainclogoimg {
+    background-image: url('../../imagenes/header_imagenes/header_aguainc.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 50px;
+    margin-right: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.excellentialogoimg {
+    background-image: url('../../imagenes/header_imagenes/header_excellentia.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}

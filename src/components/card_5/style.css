@@ -1,0 +1,68 @@
+
+/* ************************************************************************ */
+/* CONFIGURACION PARA VER LA LANDINGPAGE EN PANTALLAS MENORES A 768 PIXELES */
+/* ************************************************************************ */
+@media (max-width: 768px) {
+
+        /* CONTENEDOR PRINCIPAL */
+        .card_5-container{
+        }
+
+
+                    /* SUB Contenedor 1 */
+                    .card_5-banner-tilte{
+                        color: #ffffff;
+                        font-weight: bold;
+                        text-align: center;
+                        background-color: #548235;
+                        padding: 0.5rem;
+                        font-size: 3vw;
+                    }
+
+
+                    /* SUB Contenedor 2 */
+                    .card_5-sub-container{
+                        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../imagenes/card_5_imagenes/card_5_fondo.jpg');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: 100% 100%;
+                        padding-bottom: 20rem;
+                    }
+    
+
+}
+
+
+/* ************************************************************************ */
+/* CONFIGURACION PARA VER LA LANDINGPAGE EN PANTALLAS MAYORES A 768 PIXELES */
+/* ************************************************************************ */
+@media (min-width: 769px) {
+
+        /* CONTENEDOR PRINCIPAL */
+        .card_5-container {
+            width: 80%;
+        }
+
+
+                 /* SUB Contenedor 1 */
+                .card_5-banner-tilte {
+                    color: #ffffff;
+                    font-weight: bold;
+                    text-align: center;
+                    background-color: #548235;
+                    padding: 0.5rem;
+                    font-size: 3vw;
+                }
+
+
+                /* SUB Contenedor 2 */
+                .card_5-sub-container {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../imagenes/card_5_imagenes/card_5_fondo.jpg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100% 100%;
+                    padding-top: 50rem;
+                }
+
+
+}

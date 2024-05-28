@@ -1,0 +1,115 @@
+
+
+/* ************************************************************************ */
+/* CONFIGURACION PARA VER LA LANDINGPAGE EN PANTALLAS MENORES A 768 PIXELES */
+/* ************************************************************************ */
+@media (max-width: 768px) {
+
+
+    /* CONTENEDOR PRINCIPAL */
+    .card_2-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+                /* SUB Contenedor 1 */
+                .card_2-banner-tilte {
+                    color: #ffffff;
+                    font-weight: bold;
+                    text-align: center;
+                    background-color: #548235;
+                    padding: 0.5rem;
+                    font-size: 3vw;
+                }
+
+
+                /* SUB Contenedor 2 */
+                .card_2-sub-container{
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../imagenes/card_2_imagenes/card_2_fondo.jpg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100% 100%;
+                }
+
+                            /* SUB Contenedor 2.1 */
+                            .card_2-sub-container-texto {
+                                display: flex;
+                                flex-direction: row;
+                                text-align: left;
+                                background-color: rgba(114, 144, 40, 0.6);
+                                width: 50%;
+                                align-items: center;
+                                margin-top: 10rem;
+                                font-size: 2.5vw;
+                                color: #ffffff;
+                                font-weight: bold;
+                                padding: 0.5rem;
+                                margin-bottom: 2rem;
+                            }
+    
+
+}
+
+
+
+
+
+
+/* ************************************************************************ */
+/* CONFIGURACION PARA VER LA LANDINGPAGE EN PANTALLAS MAYORES A 768 PIXELES */
+/* ************************************************************************ */
+@media (min-width: 769px) {
+
+    
+    /* CONTENEDOR PRINCIPAL */
+    .card_2-container {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+
+                /* SUB Contenedor 1 */
+                .card_2-banner-tilte {
+                    color: #ffffff;
+                    font-weight: bold;
+                    text-align: center;
+                    background-color: #548235;
+                    padding: 0.5rem;
+                    font-size: 3vw;
+                }
+
+
+                /* SUB Contenedor 2 */
+                .card_2-sub-container {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../imagenes/card_2_imagenes/card_2_fondo.jpg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100% 100%;
+                }
+
+
+                            /* SUB Contenedor 2.1 */
+                            .card_2-sub-container-texto {
+                                display: flex;
+                                flex-direction: row;
+                                text-align: left;
+                                background-color: rgba(114, 144, 40, 0.6);
+                                width: 50%;
+                                margin-left: 1rem;
+                                align-items: center;
+                                margin-top: 40rem;
+                                font-size: 2vw;
+                                color: #ffffff;
+                                font-weight: bold;
+                                padding: 0.5rem;
+                                margin-bottom: 2rem;
+                            }
+
+
+}
+
+
+
+

@@ -1,0 +1,59 @@
+
+/* ************************************************************************ */
+/* CONFIGURACION PARA VER LA LANDINGPAGE EN PANTALLAS MENORES A 768 PIXELES */
+/* ************************************************************************ */
+@media (max-width: 768px) {
+
+    .footer {
+        background-color: rgba(241, 226, 40, 0.2);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 1rem;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        flex-wrap: wrap;
+    }
+
+                .separador {
+                    width: 20px;
+                    text-align: center;
+                }
+
+}
+
+/* ************************************************************************ */
+/* CONFIGURACION PARA VER LA LANDINGPAGE EN PANTALLAS MAYORES A 768 PIXELES */
+/* ************************************************************************ */
+@media (min-width: 769px) {
+
+    .footer {
+        background-color: rgba(241, 226, 40, 0.2);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* padding: 2rem; */
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        flex-wrap: wrap;
+        align-items: center;
+        align-self: center;
+        width: 100%;
+    }
+
+            .separador {
+                width: 20px;
+                text-align: center;
+            }
+
+            .documentos_legales{
+                /* background-color: antiquewhite; */
+                height: 50px;
+                display: flex;
+                align-self: center;
+                align-items: center;
+            }
+
+
+
+}

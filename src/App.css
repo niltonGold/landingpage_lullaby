@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"');
+
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+/* Estilos para pantallas grandes */
+body {
+  font-size: 16px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
+.App-header {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url('../src/imagenes/card_1_Inicio_imagenes/card_1_fondo_web.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-bottom: 5rem;
+}
+
+.documentos_legales{
+  text-decoration: underline;
+}
+
+.App-card{
+  display: flex;
+  justify-content: center;
+}
+
+
+.cookie-consent-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  /* Aumenta la opacidad del fondo */
+
+  z-index: 9999;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+  /* Añade padding para asegurar que se extiende correctamente */
+  box-sizing: border-box;
+  /* Asegura que el padding no afecte el tamaño total */
+}
+
+.cookie_container{
+  height: 40%;
+}

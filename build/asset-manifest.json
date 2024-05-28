@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b1903fbf.css",
+    "main.js": "/static/js/main.05121a03.js",
+    "static/js/453.0927db7a.chunk.js": "/static/js/453.0927db7a.chunk.js",
+    "static/media/ofertas.jpg": "/static/media/ofertas.701060cbc471185b5b49.jpg",
+    "static/media/beneficiosDestacados.jpg": "/static/media/beneficiosDestacados.3e431423c80f5176b1ed.jpg",
+    "static/media/contacto.jpg": "/static/media/contacto.93c2710600115fbc6360.jpg",
+    "static/media/inicio.jpg": "/static/media/inicio.e9c66b109983ec9e64c5.jpg",
+    "static/media/ahoro_energetico.jpg": "/static/media/ahoro_energetico.8aa9ea629d188791f1ff.jpg",
+    "static/media/eficiencia_energetica.jpg": "/static/media/eficiencia_energetica.27ee7bedd33de8f08d55.jpg",
+    "static/media/sostenibilidad_ambiental.jpg": "/static/media/sostenibilidad_ambiental.7402e0d9ce8e7e0b5bc7.jpg",
+    "static/media/imagen_de_marca.jpg": "/static/media/imagen_de_marca.7daf83dab8764e0067f7.jpg",
+    "index.html": "/index.html",
+    "main.b1903fbf.css.map": "/static/css/main.b1903fbf.css.map",
+    "main.05121a03.js.map": "/static/js/main.05121a03.js.map",
+    "453.0927db7a.chunk.js.map": "/static/js/453.0927db7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1903fbf.css",
+    "static/js/main.05121a03.js"
+  ]
+}

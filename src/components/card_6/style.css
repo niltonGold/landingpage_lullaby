@@ -1,0 +1,174 @@
+
+
+/* ************************************************************************ */
+/* CONFIGURACION PARA VER LA LANDINGPAGE EN PANTALLAS MENORES A 768 PIXELES */
+/* ************************************************************************ */
+@media (max-width: 768px) {
+
+
+    /* CONTENEDOR PRINCIPAL */
+        .card_6-container {
+            background-color: rgb(255, 255, 255);
+        }
+    
+    
+                        /* SUB Contenedor 1 */
+                        .card_6-banner-tilte {
+                            color: #ffffff;
+                            font-weight: bold;
+                            text-align: center;
+                            background-color: #548235;
+                            padding: 0.5rem;
+                            font-size: 3vw;
+                        }
+                    
+                    
+                        /* SUB Contenedor 2 */
+                        .card_6-sub-container-2-mini-cards {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 2rem;
+                            padding: 1rem;
+                            /* background-color: antiquewhite; */
+                            align-items: center;
+                        }
+                                                
+                    
+                                        .card_6-sub-container-mini-card {
+                                            display: flex;
+                                            flex-direction: column;
+                                            border: 2px solid #548235;
+                                            padding-bottom: 1rem;
+                                            width: 80%;
+                                        }
+                                    
+                                    
+                                                    .card_6-sub-container-mini-card-parrafo1 {
+                                                        text-align: center;
+                                                        padding: 0.5rem;
+                                                    }
+                                                            .Primera_palabra{
+                                                                font-weight: bold;
+                                                                background-color: #548235;
+                                                            }
+                                                
+
+                                                    .card_6-sub-container-mini-card-imagen-container {
+                                                            width: 100%;
+                                                            height: 250px;
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            overflow: hidden;
+                                                    }
+                                                
+
+                                                                .card_6-sub-container-mini-card-imagen1 {
+                                                                    width: 100%;
+                                                                    height: 100%;
+                                                                    background-image: url('../../imagenes/card_6_imagenes/card_6_imagen1.jpg');
+                                                                    background-repeat: no-repeat;
+                                                                    background-position: center;
+                                                                    background-size: contain;
+                                                                }
+                                                            
+
+                                                                .card_6-sub-container-mini-card-imagen2 {
+                                                                    width: 100%;
+                                                                    height: 100%;
+                                                                    background-image: url('../../imagenes/card_6_imagenes/card_6_imagen2.jpg');
+                                                                    background-repeat: no-repeat;
+                                                                    background-position: center;
+                                                                    background-size: contain;
+                                                                }
+                                                            
+
+}
+
+
+
+
+
+/* ************************************************************************ */
+/* CONFIGURACION PARA VER LA LANDINGPAGE EN PANTALLAS MAYORES A 768 PIXELES */
+/* ************************************************************************ */
+@media (min-width: 769px) {
+   
+    
+    /* CONTENEDOR PRINCIPAL */
+    .card_6-container {
+        background-color: rgb(255, 255, 255);
+        width: 80%;
+    }
+
+
+            /* SUB Contenedor 1 */
+            .card_6-banner-tilte {
+                color: #ffffff;
+                font-weight: bold;
+                text-align: center;
+                background-color: #548235;
+                padding: 0.5rem;
+                font-size: 3vw;
+            }
+
+
+            /* SUB Contenedor 2 */
+            .card_6-sub-container-2-mini-cards {
+                display: flex;
+                flex-direction: row;
+                gap: 2rem;
+                padding: 1rem;
+            }
+
+
+                        .card_6-sub-container-mini-card {
+                            display: flex;
+                            flex-direction: column;
+                            border: 2px solid #548235;
+                            padding-bottom: 1rem;
+                        }
+
+
+                                    .card_6-sub-container-mini-card-parrafo1 {
+                                        text-align: center;
+                                        padding: 0.5rem;
+                                    }
+
+                                            .Primera_palabra {
+                                                font-weight: bold;
+                                                background-color: #548235;
+                                            }
+
+
+                                    .card_6-sub-container-mini-card-imagen-container {
+                                        width: 100%;
+                                        height: 400px;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        overflow: hidden;
+                                    }
+
+
+                                                .card_6-sub-container-mini-card-imagen1 {
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    background-image: url('../../imagenes/card_6_imagenes/card_6_imagen1.jpg');
+                                                    background-repeat: no-repeat;
+                                                    background-position: center;
+                                                    background-size: contain;
+                                                }
+
+
+                                                .card_6-sub-container-mini-card-imagen2 {
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    background-image: url('../../imagenes/card_6_imagenes/card_6_imagen2.jpg');
+                                                    background-repeat: no-repeat;
+                                                    background-position: center;
+                                                    background-size: contain;
+                                                }
+
+                                                
+}

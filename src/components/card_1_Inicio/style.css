@@ -1,0 +1,147 @@
+
+
+/* ************************************************************************ */
+/* CONFIGURACION PARA VER LA LANDINGPAGE EN PANTALLAS MENORES A 768 PIXELES */
+/* ************************************************************************ */
+@media (max-width: 768px) {
+
+
+    /* CONTENEDOR PRINCIPAL */
+    .card_1-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+                /* SUB Contenedor 1 */
+                .card_1_banner-title {
+                    color: #ffffff;
+                    font-weight: bold;
+                    text-align: center;
+                    background-color: #548235;
+                    padding: 0.5rem;
+                    font-size: 2.5vw;
+                }
+
+
+                /* SUB Contenedor 2 */
+                .card_1_sub-container{
+                    background-image: url('../../imagenes/card_1_Inicio_imagenes/card_1_fondo.png');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100% 100%;
+                }
+
+
+                            /* SUB Contenedor 2.1 */
+                            .card_1-sub-title1 {
+                                font-weight: bold;
+                                text-align: center;
+                                font-size: 2vw;
+                                padding-left: 1rem;
+                                padding-right: 1rem;
+                                margin-bottom: 4rem;
+                                /* color: #066602; */
+                            }
+
+
+                            /* SUB Contenedor 2.2 */
+                            .car_1-sub-title2{
+                                display: flex;
+                                flex-direction: row;
+                                text-align: justify;
+                                background-color: rgba(114, 144, 40, 0.6);
+                                margin-top: 10rem;
+                                width: 50%;
+                                align-items: center;
+                                margin-bottom: 2rem;
+                            }
+                                        .car_1-sub-title2-texto{
+                                            color: #ffffff;
+                                            font-weight: bold;
+                                            padding: 0.5rem;
+                                            text-align: left;
+                                            font-size: 2.5vw;
+                                        }
+
+
+}
+
+
+
+
+/* ************************************************************************ */
+/* CONFIGURACION PARA VER LA LANDINGPAGE EN PANTALLAS MAYORES A 768 PIXELES */
+/* ************************************************************************ */
+@media (min-width: 769px) {
+
+    /* CONTENEDOR PRINCIPAL */
+    .card_1-container {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+
+                /* SUB Contenedor 1 */
+                .card_1_banner-title {
+                    color: #ffffff;
+                    font-weight: bold;
+                    text-align: center;
+                    background-color: rgba(84, 130, 53);
+                    padding: 0.5rem;
+                    font-size: 3vw;
+                    color: white;
+                    /* text-shadow:
+                        2px 2px 0 black,
+                        -2px -2px 0 black,
+                        -2px 2px 0 black,
+                        2px -2px 0 black;
+                    border: 2px solid rgba(84, 130, 53);
+                    color: #367c08; */
+                }
+            
+
+                            /* SUB Contenedor 2 */
+                            .card_1_sub-container {
+                                background-image: url('../../imagenes/card_1_Inicio_imagenes/card_1_fondo.png');
+                                background-repeat: no-repeat;
+                                background-position: center;
+                                background-size: 100% 100%;
+                                }
+            
+                                        /* SUB Contenedor 2.1 */
+                                        .card_1-sub-title1 {
+                                            font-weight: bold;
+                                            text-align: center;
+                                            font-size: 2vw;
+                                            padding-left: 1rem;
+                                            padding-right: 1rem;
+                                            margin-bottom: 4rem;
+                                        }
+                                    
+                                    
+                                        /* SUB Contenedor 2.2 */
+                                        .car_1-sub-title2 {
+                                            display: flex;
+                                            flex-direction: row;
+                                            text-align: justify;
+                                            background-color: rgba(114, 144, 40, 0.6);
+                                            margin-top: 25rem;
+                                            width: 50%;
+                                            align-items: center;
+                                            margin-bottom: 2rem;
+                                        }
+                                                
+                                                    .car_1-sub-title2-texto {
+                                                        color: #ffffff;
+                                                        font-weight: bold;
+                                                        padding: 0.5rem;
+                                                        text-align: left;
+                                                        font-size: 1.5vw;
+                                                    }
+
+
+}
+
+

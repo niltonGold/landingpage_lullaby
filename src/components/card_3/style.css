@@ -1,0 +1,112 @@
+
+
+/* ************************************************************************ */
+/* CONFIGURACION PARA VER LA LANDINGPAGE EN PANTALLAS MENORES A 768 PIXELES */
+/* ************************************************************************ */
+@media (max-width: 768px) {
+
+
+    /* Contenedor principal */
+    .card_3-container {
+    }
+
+
+                    /* SUB Contenedor 1 */
+                    .card_3-banner-tilte {
+                        color: #ffffff;
+                        font-weight: bold;
+                        text-align: center;
+                        background-color: #548235;
+                        padding: 0.5rem;
+                        font-size: 3vw;
+                    }
+
+
+                    /* SUB Contenedor 2 */
+                    .card_3-sub-container {
+                        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../imagenes/card_3_imagenes/card_3_fondo.jpg');
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: 100% 100%;
+                        display: flex;
+                        flex-direction: column;
+                        padding-top: 20rem;
+                    }
+
+
+                            .card_3-sub-container-iconwhasap-parrafo1{
+                                background-color: rgba(114, 144, 40, 0.6);
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                align-self: center;
+                                padding: 0.5rem;
+                            }
+
+                                    /* SUB Contenedor 2.1 */
+                                    .card_3-sub-container-parrafo1 {
+                                        display: flex;
+                                        color: #ffffff;
+                                        font-weight: bold;
+                                        text-align: center;
+                                        font-size: 3vw;
+                                    }
+
+
+}
+
+
+/* ************************************************************************ */
+/* CONFIGURACION PARA VER LA LANDINGPAGE EN PANTALLAS MAYORES A 768 PIXELES */
+/* ************************************************************************ */
+@media (min-width: 769px) {
+
+
+    /* Contenedor principal */
+    .card_3-container {
+        width: 80%;
+    }
+
+
+                /* SUB Contenedor 1 */
+                .card_3-banner-tilte {
+                    color: #ffffff;
+                    font-weight: bold;
+                    text-align: center;
+                    background-color: #548235;
+                    padding: 0.5rem;
+                    font-size: 3vw;
+                }
+
+
+                /* SUB Contenedor 2 */
+                .card_3-sub-container {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../imagenes/card_3_imagenes/card_3_fondo.jpg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100% 100%;
+                    display: flex;
+                    flex-direction: column;
+                    padding-top: 40rem;
+                }
+
+
+                            .card_3-sub-container-iconwhasap-parrafo1 {
+                                background-color: rgba(114, 144, 40, 0.6);
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                align-self: center;
+                                padding: 0.5rem;
+                            }
+
+                            /* SUB Contenedor 2.1 */
+                            .card_3-sub-container-parrafo1 {
+                                display: flex;
+                                color: #ffffff;
+                                font-weight: bold;
+                                text-align: center;
+                                font-size: 2.5vw;
+                            }
+
+}

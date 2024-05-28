@@ -1,0 +1,149 @@
+
+/* ************************************************************************ */
+/* CONFIGURACION PARA VER LA LANDINGPAGE EN PANTALLAS MENORES A 768 PIXELES */
+/* ************************************************************************ */
+@media (max-width: 768px) {
+
+    /* CONTENEDOR PRINCIPAL */
+    .card_4-container {
+    }
+
+            /* SUB Contenedor 1 */
+            .card_4-banner-tilte{
+                color: #ffffff;
+                font-weight: bold;
+                text-align: center;
+                background-color: #548235;
+                padding: 0.5rem;
+                font-size: 3vw;
+            }
+
+
+            /* SUB Contenedor 2 */
+            .card_4-sub-container{
+                background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../imagenes/card_4_imagenes/card_4_fondo.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 100% 100%;
+                display: flex;
+                flex-direction: column;
+            }
+
+
+                        .card_4-sub-container-parrafo1{
+                            margin-bottom: 2rem;
+                            margin-top: 15rem;
+                        }
+
+                                    .card_4-sub-container-parrafo1-texto{
+                                        display: flex;
+                                        color: #ffffff;
+                                        font-weight: bold;
+                                        text-align: left;
+                                        font-size: 3vw;
+                                        background-color: rgba(114, 144, 40, 0.6);
+                                        padding: 0.5rem;
+                                        width: 50%;
+                                        align-self: center;
+                                    }
+
+
+                        .card_4-sub-container-parrafo2{
+                            display: flex;
+                            justify-content: right;
+                        }
+
+                                    .card_4-sub-container-parrafo2-texto{
+                                        background-color: rgba(65, 84, 17, 0.8);
+                                        color: #ffffff;
+                                        font-weight: bold;
+                                        text-align: right;
+                                        padding: 0.5rem;
+                                        font-size: 2vw;
+                                        width: 60%;
+                                    }
+
+
+}
+
+
+/* ************************************************************************ */
+/* CONFIGURACION PARA VER LA LANDINGPAGE EN PANTALLAS MAYORES A 768 PIXELES */
+/* ************************************************************************ */
+@media (min-width: 769px) {
+
+    /* CONTENEDOR PRINCIPAL */
+    .card_4-container {
+        width: 80%;
+    }
+    
+                /* SUB Contenedor 1 */
+                .card_4-banner-tilte {
+                    color: #ffffff;
+                    font-weight: bold;
+                    text-align: center;
+                    background-color: #548235;
+                    padding: 0.5rem;
+                    font-size: 3vw;
+                }
+            
+
+                /* SUB Contenedor 2 */
+                .card_4-sub-container {
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../imagenes/card_4_imagenes/card_4_fondo.jpg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 100% 100%;
+                    display: flex;
+                    flex-direction: column;
+                }
+            
+            
+                            .card_4-sub-container-parrafo1 {
+                                display: flex;
+                                color: #ffffff;
+                                font-weight: bold;
+                                text-align: center;
+                                padding: 0.5rem;
+                                align-self: center;
+                                margin-top: 30rem;
+                                margin-bottom: 2rem;
+                                
+                            }
+                        
+
+                                    .card_4-sub-container-parrafo1-texto {
+                                        display: flex;
+                                        color: #ffffff;
+                                        font-weight: bold;
+                                        text-align: left;
+                                        font-size: 2vw;
+                                        background-color: rgba(114, 144, 40, 0.6);
+                                        padding: 0.5rem;
+                                        width: 50%;
+                                        align-self: center;
+                                    }
+
+
+                            .card_4-sub-container-parrafo2 {
+                                color: #ffffff;
+                                font-weight: bold;
+                                text-align: right;
+                                display: flex;
+                                justify-content: right;
+                                
+                            }
+
+
+                                    .card_4-sub-container-parrafo2-texto {
+                                        background-color: rgba(65, 84, 17, 0.8);
+                                        color: #ffffff;
+                                        font-weight: bold;
+                                        text-align: right;
+                                        padding: 0.5rem;
+                                        font-size: 1vw;
+                                        width: 60%;
+                                    }
+
+
+}
