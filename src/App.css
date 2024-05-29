@@ -34,6 +34,12 @@ body {
 }
 
 
+    .App-header-hide {
+      display: none;
+    }
+
+
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -54,8 +60,21 @@ body {
   justify-content: center;
 }
 
-.App-card-hide{
+.App-card9 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.App-card9-hide{
   display: none;
+}
+
+.btn-card9{
+  width: 50%;
 }
 
 

@@ -53,6 +53,7 @@ function App() {
 
   return (
     <div className="App-header">
+      
 
       
         {/* {showCookieConsent && ( 
@@ -154,13 +155,15 @@ function App() {
                        
 
 
-            </div>
-                        <div id="form-contact" className={ paginaVisible ? 'App-card-hide' : 'App-card' }>
-                              <Card_9_formContac />
-                              <button onClick={ handleButtonClickk }>Volver</button>
-                        </div>
+          </div>
+      
+              <div id="form-contact" className={ paginaVisible ? 'App-card9-hide' : 'App-card9' }>
+                    <Card_9_formContac />
+                    <button className='btn-card9' onClick={ handleButtonClickk }>Volver</button>
+              </div>
 
     </div>
   );
 }
+
 export default App;

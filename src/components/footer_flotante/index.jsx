@@ -23,7 +23,7 @@ export const Footer_flotante = () => {
               <AppBar position="fixed" sx={{
                 top: 'auto', bottom: 0, backgroundColor: 'rgb(84, 130, 53, 0.8)',
                 display: 'flex', flexDirection: 'row', padding: '0.5rem',
-                paddingLeft: '1rem', paddingRight: '1rem', gap: '1rem' }}>
+                paddingLeft: '1rem', paddingRight: '1rem', gap: '0.5rem' }}>
 
                       <Link onClick={sendMessage} sx={{
                         display: 'inline-flex', gap: '1rem', cursor: 'pointer',
@@ -48,7 +48,7 @@ export const Footer_flotante = () => {
                                       
                                 <Link onClick={sendMessage} sx={{
                                     display: 'inline-flex',
-                                    gap: '1rem',
+                                    gap: '0.5rem',
                                     cursor: 'pointer', textDecoration: 'none',
                                     backgroundColor: '#17662F', color: 'white', fontSize: { xs: '12px', md: '20px' },         
                                     padding: '0.1rem 0.5rem 0.1rem 0.5rem',
