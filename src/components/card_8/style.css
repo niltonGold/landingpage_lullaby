@@ -77,11 +77,11 @@
                                                                         }
     
                                                                         .Carlos {
-                                                                            background-image: url('../../imagenes/card_8_imagenes/Antonio.jpg');
+                                                                            background-image: url('../../imagenes/card_8_imagenes/Carlos.jpg');
                                                                         }
     
                                                                         .Antonio {
-                                                                            background-image: url('../../imagenes/card_8_imagenes/Carlos.jpg');
+                                                                            background-image: url('../../imagenes/card_8_imagenes/Antonio.jpg');
                                                                         }
 
 
@@ -169,7 +169,7 @@
                     color: #E7E6E6;
                     font-weight: bold;
                     text-align: center;
-                    background-color: #548235;
+                    background-color: rgba(5, 93, 217, 0.7);
                     padding: 0.5rem;
                 }
             
@@ -264,11 +264,11 @@
                                                     }
 
                                                     .Carlos {
-                                                        background-image: url('../../imagenes/card_8_imagenes/Antonio.jpg');
+                                                        background-image: url('../../imagenes/card_8_imagenes/Carlos.jpg');
                                                     }
 
                                                     .Antonio {
-                                                        background-image: url('../../imagenes/card_8_imagenes/Carlos.jpg');
+                                                        background-image: url('../../imagenes/card_8_imagenes/Antonio.jpg');
                                                     }
 
 
@@ -356,7 +356,7 @@
                     color: #E7E6E6;
                     font-weight: bold;
                     text-align: center;
-                    background-color: #548235;
+                    background-color: rgba(5, 93, 217, 0.7);
                     padding: 0.5rem;
                     font-size: 3vw;
                 }

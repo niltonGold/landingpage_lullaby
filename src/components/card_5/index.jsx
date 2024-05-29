@@ -10,7 +10,7 @@ export const Card_5 = () => {
               
                 {/* SUB Contenedor 1 */}
                 <div className='card_5-banner-tilte'>
-                    "Proteje el medio ambiente, mientras produces energía más eficientemente"
+                    " PROTEJE EL MEDIO AMBIENTE, MIENTRAS PRODUCES ENERGÍA MÁS EFICIENTEMENTE "
                 </div>
               
                 {/* SUB Contenedor 2 */}

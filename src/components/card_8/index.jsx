@@ -22,7 +22,7 @@ export const Card_8 = () => {
 
                         {/* SUB Contenedor 1 */}
                         <div className='card_8-banner-tilte'>
-                            ¡Contáctanos hoy para obtener más información y dar el primer paso hacia un futuro más brillante para todos!
+                                    ¡CONTÁCTANOS HOY PARA OBTENER MÁS INFORMACIÓN Y DAR EL PRIMER PASO HACIA UN FUTURO MÁS BRILLANTE PARA TODOS!
                         </div>
 
                         {/* SUB Contenedor 2 */}
@@ -90,7 +90,7 @@ export const Card_8 = () => {
 
 
                              
-                            </div>
+                        </div>
                             
                         <a href="http://aguainc.com/" className="enlace-aguainc" target="_blank">
                                     www.aguainc.es
@@ -120,7 +120,7 @@ export const Card_8 = () => {
                                 <a href="#form-contact" className="enlace" >
                                             
                                         <div>
-                                                ¡Tu diagnóstico energético “Gratuito” por tiempo limitado, *CLIK aquí!
+                                                Rellena el formulario y obtén gratis tu diagnostico energético click aqui (*por tiempo limitado)
                                         </div>
                                                 
                                         <AdsClickIcon sx={{ fontSize: { xs: '2.5rem', md: '4rem' } }} />

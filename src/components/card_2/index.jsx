@@ -10,7 +10,7 @@ export const Card_2 = () => {
                     
             {/* SUB Contenedor 1 */}
             <div className='card_2-banner-tilte'>
-                  ¿Costos altos de energía, falta de espacio, aguas con algas, o alta evaporación?  
+                  ¿ALTOS COSTES DE ENERGÍA, FALTA DE ESPACIO, AUGAS CON ALGAS, O ALTA EVAPORACIÓN?  
             </div>
 
                     
@@ -20,10 +20,9 @@ export const Card_2 = () => {
                   {/* SUB Contenedor 2.1 */}
                   <div className='card_2-sub-container-texto'>
 
-                        Las Instalaciones flotantes fotovoltaicas aumentan
-                        la eficiencia solar hasta un 30%, aprovechan un área en desuso,
-                        reducen evaporación y algas, y gracias al SFS se minimiza el
-                        coste de implantación"
+                        Los paneles solares flotantes aumentan su eficiencia hasta un 30%, aprovechan un área en desuso,
+                        reducen la evaporación y algas, y gracias al SFS se minimiza el
+                        coste de implantación.
             
                   </div>
         

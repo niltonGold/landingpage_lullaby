@@ -25,7 +25,7 @@ export const Card_1_Inicio = () => {
 
                 {/* SUB Contenedor 1 */}
                 <div className="card_1_banner-title">
-                      " Energía Solar Flotante: Innovación y Sostenibilidad en Tus Embalses "
+                      " FOTOVOLTAICA FLOTANTE: INNOVACIÓN Y SOSTENIBILIDAD EN EMBALSES "
                 </div>
         
 
@@ -34,7 +34,7 @@ export const Card_1_Inicio = () => {
                 
                         {/* SUB Contenedor 2.1 */}
                         <div className="card_1-sub-title1">
-                              "Aprovecha al máximo cada metro cuadrado de agua con nuestra tecnología exclusiva SFS (Smart Floating Structure)"
+                              " Aprovecha al máximo cada m<sup>2</sup> de agua con la tecnología SFS "
                         </div>
                 
 

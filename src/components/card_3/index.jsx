@@ -24,7 +24,7 @@ export const Card_3 = () => {
         
               {/* SUB Contenedor 1 */}
               <div className='card_3-banner-tilte'>
-                    "Con más de 2000 proyectos, y certificaciones ISO, garantizamos resultados superiores."
+                    " CON MÁS DE 2000 PROYECTOS Y CERTIFICACIONES ISO, GARANTIZAMOS RESULTADOS SUPERIORES "
               </div>
     
 
@@ -36,7 +36,7 @@ export const Card_3 = () => {
                             <WhatsAppIcon sx={{ color: '#ffffff', fontSize: isLargeScreen ? 120 : 40 }} />
 
                             <div className='card_3-sub-container-parrafo1'>
-                                  Mándanos un WhatsApp con la palabra “Ahorro” y 
+                                  Mándanos un WhatsApp con la palabra “AHORRAR” y 
                                   transforma tus embalses en energía limpia.
                             </div>
                     

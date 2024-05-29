@@ -57,13 +57,13 @@ export const Footer_flotante = () => {
                                         '&:hover': { backgroundColor: '#e64a19', transform: 'scale(1.05)' } }} >
                                 
                 
-                                        <Box sx={{ display: 'flex', flexDirection: 'column', color: 'white', fontWeight: 'bold', alignSelf: 'center' }} >
+                                        <Box sx={{ display: 'flex', flexDirection: 'column', color: 'white', fontWeight: 'bold', alignSelf: 'center', textAlign: 'center' }} >
                                         
                                                 <Box >
-                                                    Escriba
+                                                    Escribe
                                                 </Box>
                                                 <Box>
-                                                    ahorra
+                                                    "AHORRAR"
                                                 </Box>
                                         
                                         </Box>
