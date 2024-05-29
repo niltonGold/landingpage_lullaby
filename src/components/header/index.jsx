@@ -24,11 +24,11 @@ export const Header = () => {
   const menuItems = [
     { label: 'Inicio', href: '#Inicio' },
     { label: 'Porque', href: '#Por_que' },
-    { label: 'Experiencia', href: '#Experiencia' },
+    { label: 'Quienes Somos', href: '#QuienesSomos' },
     { label: 'Innovación', href: '#Innovacion' },
     { label: 'Sfs', href: '#Sfs' },
     { label: 'Porque(Sfs)', href: '#Porque_sfs' },
-    { label: 'Certificaciones', href: '#Certificaciones' },
+    { label: 'Experiencia', href: '#Experiencia' },
     { label: 'Contacto', href: '#Contacto' },
   ];
 

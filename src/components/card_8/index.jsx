@@ -4,7 +4,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import { useMediaQuery } from '@mui/material';
 import AdsClickIcon from '@mui/icons-material/AdsClick';
 
-export const Card_8 = () => {
+export const Card_8 = ({onButtonClick}) => {
 
     const isLargeScreen = useMediaQuery( '(min-width:769px)' );
     
@@ -13,7 +13,11 @@ export const Card_8 = () => {
         const message = 'Ahorra';
         const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
         window.open(whatsappUrl, '_blank');
-    };
+        };
+        
+        const handlebtnhide = () => {
+                handlebtnhide();
+        }
 
     return (
         <>
@@ -22,7 +26,7 @@ export const Card_8 = () => {
 
                         {/* SUB Contenedor 1 */}
                         <div className='card_8-banner-tilte'>
-                                    ¡CONTÁCTANOS HOY PARA OBTENER MÁS INFORMACIÓN Y DAR EL PRIMER PASO HACIA UN FUTURO MÁS BRILLANTE PARA TODOS!
+                            ¡Contáctanos hoy para obtener más información y dar el primer paso hacia un futuro más brillante para todos!
                         </div>
 
                         {/* SUB Contenedor 2 */}
@@ -90,7 +94,7 @@ export const Card_8 = () => {
 
 
                              
-                        </div>
+                            </div>
                             
                         <a href="http://aguainc.com/" className="enlace-aguainc" target="_blank">
                                     www.aguainc.es
@@ -117,10 +121,10 @@ export const Card_8 = () => {
                         {/* SUB Contenedor 5 */}
                         <div className='card_8-sub-container-parrafo2'>
                     
-                                <a href="#form-contact" className="enlace" >
+                                <a href="#form-contact" className="enlace" onClick={onButtonClick}>
                                             
                                         <div>
-                                                Rellena el formulario y obtén gratis tu diagnostico energético click aqui (*por tiempo limitado)
+                                                ¡Tu diagnóstico energético “Gratuito” por tiempo limitado, *CLIK aquí!
                                         </div>
                                                 
                                         <AdsClickIcon sx={{ fontSize: { xs: '2.5rem', md: '4rem' } }} />

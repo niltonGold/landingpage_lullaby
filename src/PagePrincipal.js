@@ -9,14 +9,15 @@ import { Card_5 } from './components/card_5';
 import { Card_6 } from './components/card_6';
 import { Card_7 } from './components/card_7/indes';
 import Card_9_formContac from './components/card_9_formContac';
-import { Card_8 } from './components/card_8';
+// import { Card_8 } from './components/card_8';
 import { Footer } from './components/footer';
 import { Footer_flotante } from './components/footer_flotante';
-// import CookieConsent from 'react-cookie-consent';
+import CookieConsent from 'react-cookie-consent';
+import Card_8 from './components/card_8';
 
 
 
-function App() {
+function PagePrincipal() {
 
 
 
@@ -39,17 +40,6 @@ function App() {
     window.open('/PoliticaDeCookies.pdf', '_blank');
   };
 
-  const [paginaVisible, setPaginaVisible] = useState( true );
-
-  const handleButtonClick = () => {
-    // alert( 'Función activada en App!' );
-    setPaginaVisible( false );
-  };
-
-  const handleButtonClickk = () => {
-    console.log( "hola" );
-    setPaginaVisible( true );
-  };
 
   return (
     <div className="App-header">
@@ -88,7 +78,7 @@ function App() {
         )} */}
 
 
-            <div className={ paginaVisible ? 'main-container' : 'main-container-hide' }> 
+            <div className='main-container'> 
             
             
                     <Header />
@@ -107,7 +97,7 @@ function App() {
 
                             {/* ---------------------------------- */}
                       
-                              <div id="Experiencia" className='App-card'>
+                              <div id="QuienesSomos" className='App-card'>
                                 <Card_3/>
                               </div>
 
@@ -131,19 +121,17 @@ function App() {
                   
                             {/* ---------------------------------- */}
                           
-                              <div id="Certificaciones" className='App-card'>
+                              <div id="Experiencia" className='App-card'>
                                   <Card_7 />          
                               </div>
                           
                             {/* ---------------------------------- */}
                       
                               <div id="Contacto" className='App-card'>
-                                  <Card_8 onButtonClick={ handleButtonClick } />
+                                <Card_8/>
                               </div>
                       
-                            {/* ---------------------------------- */}
-                          
-                          
+
                           
                     {/* </div> */}
                     
@@ -151,16 +139,10 @@ function App() {
                     
                     <Footer_flotante />
 
-                       
-
-
             </div>
-                        <div id="form-contact" className={ paginaVisible ? 'App-card-hide' : 'App-card' }>
-                              <Card_9_formContac />
-                              <button onClick={ handleButtonClickk }>Volver</button>
-                        </div>
+
 
     </div>
   );
 }
-export default App;
+export default PagePrincipal;

@@ -5,10 +5,6 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-/* Estilos para pantallas grandes */
-body {
-  font-size: 16px;
-}
 
 .container {
   width: 80%;
@@ -45,6 +41,10 @@ body {
   padding-bottom: 5rem;
 }
 
+.main-container-hide{
+  display: none;
+}
+
 .documentos_legales{
   text-decoration: underline;
 }
@@ -52,6 +52,10 @@ body {
 .App-card{
   display: flex;
   justify-content: center;
+}
+
+.App-card-hide{
+  display: none;
 }
 
 
