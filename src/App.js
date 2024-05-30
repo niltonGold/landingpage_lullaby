@@ -21,7 +21,7 @@ function App() {
 
 
 
- const [showCookieConsent, setShowCookieConsent] = useState(true); // Estado para controlar la visibilidad de CookieConsent
+  const [showCookieConsent, setShowCookieConsent] = useState(true); // Estado para controlar la visibilidad de CookieConsent
 
   const handleAcceptCookies = () => {
     // Función para manejar la aceptación de cookies
@@ -46,11 +46,11 @@ function App() {
     setPaginaVisible( false );
   };
 
-  const handleButtonClickk = () => {
-    console.log( "hola" );
+  const handleButtonClickVolver = () => {
+    // alert( 'Función activada en App!' );
     setPaginaVisible( true );
   };
-
+  
   return (
     <div className="App-header">
       
@@ -158,8 +158,8 @@ function App() {
           </div>
       
               <div id="form-contact" className={ paginaVisible ? 'App-card9-hide' : 'App-card9' }>
-                    <Card_9_formContac />
-                    <button className='btn-card9' onClick={ handleButtonClickk }>Volver</button>
+        <Card_9_formContac  Volver={ handleButtonClickVolver }/>
+                    {/* <button  className='btn-card9' onClick={ handleButtonClickk }>Volver</button> */}
               </div>
 
     </div>

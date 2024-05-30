@@ -1,18 +1,23 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import './style.css';
+import ReplyAllIcon from '@mui/icons-material/ReplyAll';
+import { useMediaQuery } from '@mui/material';
 
 const initialFormData = {
         nombre: '',
         telefono: '',
         email: '',
-        mensaje: ''
+        mensaje: '',
+        area: '',
+        localidad: ''
     };
 
 
-const Card_9_formContac = () => {
+const Card_9_formContac = ({Volver}) => {
 
-
+      const isLargeScreen = useMediaQuery( '(min-width:769px)' );
+      
       const [formData, setFormData] = useState( initialFormData );
 
       const [formVisible, setFormVisible] = useState(false);
@@ -48,7 +53,9 @@ const Card_9_formContac = () => {
                   });
       };
 
-
+      const onButtonClickVolver = () => {
+            console.log( 'hola desde card9' );
+}
 
 
   return (
@@ -59,46 +66,87 @@ const Card_9_formContac = () => {
                         Contacta con nosotros
                   </div>
 
-                  <form className='form-div' onSubmit={handleSubmit}>
-                          
-                              <div className='contactForm-sub-container'>
+                  <div className='contactForm-principal-container'>
+                              
+                              <form className='form-div' onSubmit={handleSubmit}>
                                     
-                                    <div className='contactForm-datos-contacto-container'>
-                                          
-                                                <div className='escribir-datos-container'>
-                                                      <div className='subtitulo'>Nombre <div className='dospuntos0'>:</div></div>
-                                                      <div className='dospuntos'>:</div>
-                                                      <input type="text" name="nombre" value={formData.nombre} onChange={handleChange} required />
-                                                </div>
-                                                
-                                                
-                                                <div className='escribir-datos-container'>
-                                                      <div className='subtitulo'>Teléfono <div className='dospuntos0'>:</div></div>
-                                                      <div className='dospuntos'>:</div>
-                                                      <input type="tel" name="telefono" value={formData.telefono} onChange={handleChange} required />
-                                                </div>
-                                                
-                                          
-                                                <div className='escribir-datos-container'>
-                                                      <div className='subtitulo'>Email <div className='dospuntos0'>:</div></div>
-                                                      <div className='dospuntos'>:</div>
-                                                      <input type="email" name="email" value={formData.email} onChange={handleChange} required />
-                                                </div>
-                                                
-                                          
-                                                <div className='escribir-datos-container'>
-                                                      <div className='subtitulo'>Mensaje <div className='dospuntos0'>:</div></div>
-                                                      <div className='dospuntos'>:</div>
-                                                      <textarea name="mensaje" value={formData.mensaje} onChange={handleChange} required />
-                                                </div>
-                                    
-                                                <button className='btn-submit' type="submit">Enviar</button>
-                                          
-                                    </div>
+                                                            <div className='escribir-datos-container camposObligatorios'>
+                                                                  (*) Campos obligatorios
+                                                            </div>
+                                
 
-                              </div>
-                          
-                  </form>
+                                                            <div className='escribir-datos-container camposOpcionales'>
+                                                                  (o) Campos opcionales
+                                                            </div>
+                                                            
+                                
+                                                            <div className='escribir-datos-container'>
+                                                                  <div className='titulo-input'>Nombre :</div>
+                                                                  <div className='input-obligatorio-container'>
+                                                                        <input type="text" className='obligatorio' name="nombre" value={formData.nombre} onChange={handleChange} required />
+                                                                        <div className='camposObligatorios'> (*) </div>
+                                                                  </div>
+                                                            </div>
+                                                            
+                                                            
+                                                            <div className='escribir-datos-container'>
+                                                                  <div className='titulo-input'>Teléfono :</div>
+                                                                  <div className='input-obligatorio-container'>
+                                                                        <input type="tel" className='obligatorio' name="telefono" value={formData.telefono} onChange={handleChange} required />
+                                                                        <div className='camposObligatorios'> (*) </div>
+                                                                  </div>
+                                                            </div>
+                                                            
+                                                      
+                                                            <div className='escribir-datos-container'>
+                                                                  <div className='titulo-input'>Email :</div>
+                                                                  <div className='input-obligatorio-container'>
+                                                                        <input type="email" className='obligatorio' name="email" value={formData.email} onChange={handleChange} required />
+                                                                        <div className='camposObligatorios'> (*) </div>
+                                                                  </div>
+                                                            </div>
+                                                            
+                                                      
+                                                            <div className='escribir-datos-container'>
+                                                                  <div className='titulo-input'>Mensaje :</div>
+                                                                  <div className='input-obligatorio-container'>                            
+                                                                        <textarea name="mensaje" className='opcional' value={formData.mensaje} onChange={handleChange} />
+                                                                        <div className='camposOpcionales'> (o) </div>
+                                                                  </div>
+                                                            </div>
+                                                
+                                                            
+                                                            <div className='escribir-datos-container'>
+                                                                  <div className='titulo-input'>Area de tu embalse (m<sup>2</sup>) :</div>
+                                                                  <div className='input-obligatorio-container'>
+                                                                        <input type="number" className='opcional' name="area" value={formData.area} onChange={handleChange} />
+                                                                        <div className='camposOpcionales'> (o) </div>
+                                                                  </div>
+                                                            </div>
+                                                
+                                                            
+                                                            <div className='escribir-datos-container'>
+                                                                  <div className='titulo-input'>Localidad :</div>
+                                                                  <div className='input-obligatorio-container'>
+                                                                        <input type='text'  className='opcional' name="localidad" value={formData.localidad} onChange={handleChange} />
+                                                                        <div className='camposOpcionales'> (o) </div>
+                                                                  </div>
+                                                            </div>
+                                                
+                                                
+                                                <button className='btn-submit' type="submit">Enviar</button>
+                                                
+                                                      
+                                    
+                                    
+                              </form>
+                        
+                          <div className='btn-card9' onClick={Volver}>
+                                <ReplyAllIcon sx={{ color: '#ffffff', fontSize: isLargeScreen ? 100 : 40 }}/>
+                                <div className='volver'>Volver</div>
+                          </div>
+                 
+                  </div>
                     
       </div>
     </>
