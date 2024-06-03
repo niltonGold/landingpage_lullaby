@@ -22,13 +22,13 @@ export const Header = () => {
   };
 
   const menuItems = [
-    { label: 'Inicio', href: '#Inicio' },
-    { label: 'Porque', href: '#Por_que' },
-    { label: 'Quienes Somos', href: '#QuienesSomos' },
-    { label: 'Innovación', href: '#Innovacion' },
-    { label: 'Sfs', href: '#Sfs' },
-    { label: 'Experiencia', href: '#Experiencia' },
-    { label: 'Contacto', href: '#Contacto' },
+    { label: 'INICIO', href: '#Inicio' },
+    { label: 'PORQUE', href: '#Por_que' },
+    { label: 'QUIENES SOMOS', href: '#QuienesSomos' },
+    { label: 'INNOVACIÓN', href: '#Innovacion' },
+    { label: 'SFS', href: '#Sfs' },
+    { label: 'EXPERIENCIA', href: '#Experiencia' },
+    { label: 'CONTACTO', href: '#Contacto' },
   ];
 
 

@@ -12,7 +12,7 @@ export const Card_4 = () => {
               
                 {/* SUB Contenedor 1 */}
                 <div className='card_4-banner-tilte'>
-                        INNOVACIÓN EN ACCIÓN SFS
+                        INNOVACIÓN EN ACCIÓN, SMART FLOATING STRUCTURE "SFS"
                 </div>
 
               
