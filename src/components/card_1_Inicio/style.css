@@ -39,12 +39,13 @@
                             .card_1-sub-title1 {
                                 font-weight: bold;
                                 text-align: center;
-                                font-size: 2vw;
-                                padding-left: 1rem;
-                                padding-right: 1rem;
+                                /* font-size: 2vw; */
+                                /* padding-left: 1rem;
+                                padding-right: 1rem; */
                                 margin-bottom: 4rem;
                                 /* color: #066602; */
                                 font-size: 0.9rem;
+                                color: #285335;
                             }
 
 
