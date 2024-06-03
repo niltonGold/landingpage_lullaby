@@ -24,7 +24,7 @@ export const Card_3 = () => {
         
               {/* SUB Contenedor 1 */}
               <div className='card_3-banner-tilte'>
-                    " CON MÁS DE 2000 PROYECTOS Y CERTIFICACIONES ISO, GARANTIZAMOS RESULTADOS SUPERIORES "
+                    " CON MÁS DE 2000 PROYECTOS Y CERTIFICACIONES ISO, GARANTIZAMOS RESULTADOS "
               </div>
     
 
