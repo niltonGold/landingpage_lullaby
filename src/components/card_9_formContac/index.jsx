@@ -70,6 +70,11 @@ const Card_9_formContac = ({Volver}) => {
                               
                               <form className='form-div' onSubmit={handleSubmit}>
                                     
+                                                            <div className='form-div-titulo'>
+                                                                  Rellena el formuluario y obten "gratis" un diagnóstico energético por tiempo limitado
+                                                            </div>
+                                                            
+                                                            
                                                             <div className='escribir-datos-container camposObligatorios'>
                                                                   (*) Campos obligatorios
                                                             </div>

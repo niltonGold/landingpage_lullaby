@@ -47,6 +47,14 @@
                     }
 
 
+                            .form-div-titulo{
+                                /* background-color: aqua; */
+                                color: #ffffff;
+                                font-weight: bold;
+                                text-align: center;
+                                font-size: 0.9rem;
+                            }
+
                             .escribir-datos-container{
                                 /* background-color: antiquewhite; */
                                 width: 90%;
