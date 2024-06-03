@@ -132,7 +132,7 @@ function App() {
                   
                             {/* ---------------------------------- */}
                           
-                              <div id="Certificaciones" className='App-card'>
+                              <div id="Experiencia" className='App-card'>
                                   <Card_7 />          
                               </div>
                           
