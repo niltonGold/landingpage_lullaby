@@ -24,7 +24,7 @@ export const Card_6 = () => {
                                           “<b>Propietario</b>, Ahorra y gana: 
                                           Instalación fácil y económica, 
                                           eficiencia energética, y oportunidad 
-                                          de ingresos extras con bombeo solar"
+                                          de ingresos extras"
                                   </div>
                   
                                   <div  className='card_6-sub-container-texto-parrafo2'>
