@@ -8,7 +8,7 @@ import AdsClickIcon from '@mui/icons-material/AdsClick';
 
 
 const sendMessage = () => {
-  const phoneNumber = '+34624667821';
+  const phoneNumber = '+34624030926';
   const message = 'Ahorra';
   const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
   window.open(whatsappUrl, '_blank');
@@ -17,7 +17,7 @@ const sendMessage = () => {
 
 
 
-export const Footer_flotante = () => {
+export const Footer_flotante = ({onsendMessage}) => {
   return (
       <>
               <AppBar position="fixed" sx={{
@@ -25,7 +25,7 @@ export const Footer_flotante = () => {
                 display: 'flex', flexDirection: 'row', padding: '0.5rem',
                 paddingLeft: '1rem', paddingRight: '1rem', gap: '0.5rem' }}>
 
-                      <Link onClick={sendMessage} sx={{
+                      <Link onClick={onsendMessage} sx={{
                         display: 'inline-flex', gap: '1rem', cursor: 'pointer',
                         textDecoration: 'none', backgroundColor: '#17662F',
                         color: 'white', alignItems: 'center', alignSelf: 'center', fontSize: { xs: '12px', md: '20px' }, padding: '0.5rem 0.5rem 0.5rem 0.5rem',

@@ -150,7 +150,7 @@ function App() {
                     
                     <Footer />
                     
-                    <Footer_flotante />
+                    <Footer_flotante onsendMessage={handleButtonClick} />
 
                        
 
