@@ -36,7 +36,7 @@
                             .card_2-sub-container-texto {
                                 display: flex;
                                 flex-direction: row;
-                                text-align: justify;
+                                text-align: left;
                                 background-color: rgba(5, 93, 217, 0.7);
                                 width: 50%;
                                 align-items: center;
