@@ -23,13 +23,15 @@ export const Card_6 = () => {
                                   <div className='card_6-sub-container-texto-parrafo1'>
                                           “<b>Propietario</b>, Ahorra y gana: 
                                           Instalación fácil y económica, 
-                                          eficiencia energética y oportunidad 
-                                          de ingresos extras, bombeo solar"
+                                          eficiencia energética, y oportunidad 
+                                          de ingresos extras con bombeo solar"
                                   </div>
                   
                                   <div  className='card_6-sub-container-texto-parrafo2'>
+                                      <div className='card_6-sub-container-texto-parrafo2-sub'>
                                       “<b>Instalador</b>, diferénciate de la competencia en costos,
                                       amplía tu oferta ofreciendo soluciones inteligentes y rentables.”
+                                      </div>
                                   </div>
             
                                   <div className='card_6-sub-container-texto-parrafo3'>
