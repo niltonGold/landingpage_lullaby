@@ -126,7 +126,7 @@ function App() {
                             
                             {/* ---------------------------------- */}
                               
-                              <div id="Porque_sfs" className='App-card'>
+                              <div id="Ahorro" className='App-card'>
                                   <Card_6 />
                               </div>
                   

@@ -26,7 +26,7 @@ export const Header = () => {
     { label: 'PORQUE', href: '#Por_que' },
     { label: 'QUIENES SOMOS', href: '#QuienesSomos' },
     { label: 'INNOVACIÓN', href: '#Innovacion' },
-    { label: 'SFS', href: '#Sfs' },
+    { label: 'AHORRO', href: '#Ahorro' },
     { label: 'EXPERIENCIA', href: '#Experiencia' },
     { label: 'CONTACTO', href: '#Contacto' },
   ];
