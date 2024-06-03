@@ -63,7 +63,7 @@ const Card_9_formContac = ({Volver}) => {
       <div className='form-container'>
             
                   <div className='contactForm-banner-title' onClick={handleBannerClick}>
-                        Contacta con nosotros
+                        CONTACTA CON NOSOTROS
                   </div>
 
                   <div className='contactForm-principal-container'>

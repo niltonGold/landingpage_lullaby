@@ -44,6 +44,7 @@
                                 padding-right: 1rem;
                                 margin-bottom: 4rem;
                                 /* color: #066602; */
+                                font-size: 0.9rem;
                             }
 
 
@@ -57,13 +58,14 @@
                                 width: 50%;
                                 align-items: center;
                                 margin-bottom: 2rem;
+                                
                             }
                                         .car_1-sub-title2-texto{
                                             color: #ffffff;
                                             font-weight: bold;
                                             padding: 0.5rem;
                                             text-align: left;
-                                            font-size: 0.9rem;
+                                            font-size: 0.8rem;
                                             
                                         }
 
