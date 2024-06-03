@@ -10,7 +10,7 @@ export const Card_2 = () => {
                     
             {/* SUB Contenedor 1 */}
             <div className='card_2-banner-tilte'>
-                  ¿ALTOS COSTES DE ENERGÍA, FALTA DE ESPACIO, AUGAS CON ALGAS, O ALTA EVAPORACIÓN?  
+                  ¿ALTOS COSTES DE ENERGÍA, FALTA DE ESPACIO, AGUAS CON ALGAS, O ALTA EVAPORACIÓN?  
             </div>
 
                     
