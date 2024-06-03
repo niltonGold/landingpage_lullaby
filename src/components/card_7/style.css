@@ -51,6 +51,11 @@ flex-direction: column;
                                 .card_7-certificaciones-texto-informacion{
                                     color: #ffffff;
                                     font-weight: bold;
+                                    font-size: 0.6rem;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    align-self: center;
                                 }
 
                                 .card_7-certificaciones-icono1{
