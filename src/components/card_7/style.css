@@ -46,7 +46,7 @@ flex-direction: column;
                             display: flex;
                             flex-direction: row;
                             gap: 0.5rem;
-                            background-color: #548235;
+                            /* background-color: #548235; */
                         }
 
                                 .card_7-certificaciones-texto-informacion{
