@@ -97,7 +97,7 @@ export const Card_8 = ({onButtonClick}) => {
                             </div>
                             
                         <a href="http://aguainc.com/" className="enlace-aguainc" target="_blank">
-                                    www.aguainc.es
+                                    www.aguainc.com
                         </a>
                             
                         {/* SUB Contenedor 3 */}
