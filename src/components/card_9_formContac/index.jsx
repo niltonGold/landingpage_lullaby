@@ -71,7 +71,11 @@ const Card_9_formContac = ({Volver}) => {
                               <form className='form-div' onSubmit={handleSubmit}>
                                     
                                                             <div className='form-div-titulo'>
-                                                                  Rellena el formuluario y obten "gratis" un diagnóstico energético por tiempo limitado
+                                                                  RELLENA EL FORMULARIO Y OBTÉN "GRATIS" UN DIAGNÓSTICO ENERGÉTCO POR TIEMPO LIMITADO 
+                                                                  PARA OPTIMISAR Y AHORRAR EN SU FACTURA ELÉCTRICC
+
+                                                                  Rellena el formuluario y obten "gratis" un diagnóstico 
+                                                                  energético por tiempo limitado
                                                             </div>
                                                             
                                                             
