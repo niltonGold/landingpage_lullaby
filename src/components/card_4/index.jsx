@@ -22,7 +22,7 @@ export const Card_4 = () => {
                         <div className='card_4-sub-container-parrafo1'>
                             <div className='card_4-sub-container-parrafo1-texto'>
                                 Flotamos paneles solares de forma económica, fácil e inteligente,
-                                combinándolos con plantas anfibias para oxigenar,
+                                combinándolos con plantas anfibias para oxigenar el agua,
                                 o con tapas opacas para evitar evaporación y algas.
                             </div>
                         </div>
