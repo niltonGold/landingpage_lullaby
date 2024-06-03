@@ -72,10 +72,9 @@ const Card_9_formContac = ({Volver}) => {
                                     
                                                             <div className='form-div-titulo'>
                                                                   RELLENA EL FORMULARIO Y OBTÉN "GRATIS" UN DIAGNÓSTICO ENERGÉTCO POR TIEMPO LIMITADO 
-                                                                  PARA OPTIMISAR Y AHORRAR EN SU FACTURA ELÉCTRICC
+                                                                  PARA OPTIMIZAR Y AHORRAR EN SU FACTURA ELÉCTRICA
 
-                                                                  Rellena el formuluario y obten "gratis" un diagnóstico 
-                                                                  energético por tiempo limitado
+                                                               
                                                             </div>
                                                             
                                                             
