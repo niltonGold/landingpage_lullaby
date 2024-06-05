@@ -24,14 +24,16 @@ export const Card_1_Inicio = () => {
       <div className='card_1-container'>
 
                 {/* SUB Contenedor 1 */}
-                <div className="card_1_banner-title">
+                {/* <div className="card_1_banner-title">
                       " FOTOVOLTAICA FLOTANTE: INNOVACIÓN Y SOSTENIBILIDAD EN EMBALSES "
-                </div>
+                </div> */}
         
 
                 {/* SUB Contenedor 2 */}
                 <div className='card_1_sub-container'>
-                
+                <div className="card_1_banner-title">
+                      " FOTOVOLTAICA FLOTANTE: INNOVACIÓN Y SOSTENIBILIDAD EN EMBALSES "
+                </div>
                         {/* SUB Contenedor 2.1 */}
                         <div className="card_1-sub-title1">
                               " Aprovecha al máximo cada m<sup>2</sup> de agua con la tecnología SFS "
