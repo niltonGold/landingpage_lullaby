@@ -19,7 +19,7 @@
                     color: #ffffff;
                     font-weight: bold;
                     text-align: center;
-                    background-color: rgb(84, 130, 53);
+                    background-color: rgb(84, 130, 53,0.5 );
                     padding: 0.5rem;
                     /* font-size: 2.5vw; */
                     font-size: 0.9rem;
