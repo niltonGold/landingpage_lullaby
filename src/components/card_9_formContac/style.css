@@ -120,7 +120,7 @@
 @media (min-width: 769px) {
 
     .form-container {
-            width: 100%;
+            width: 80%;
             background-color: #548235;
         }
     
@@ -131,6 +131,7 @@
             text-align: center;
             background-color: #548235;
             padding: 0.5rem;
+            font-size: 2.5vw;
         }
     
         .contactForm-principal-container {
@@ -160,16 +161,18 @@
                 }
             
             
+                        .form-div-titulo {
+                            /* background-color: aqua; */
+                            color: #ffffff;
+                            font-weight: bold;
+                            text-align: center;
+                            font-size: 0.9rem;
+                            font-size: 1.5vw;
+                        }
+
                         .escribir-datos-container {
-                            /* background-color: antiquewhite; */
                             width: 50%;
                             color: #ffffff;
-                            display: flex;
-                            flex-direction: row;
-                            /* background-color: #84d74c; */
-                            align-items: center;
-                            align-self: center;
-                            justify-content: flex-end;
                         }
                     
                                 .camposObligatorios {
@@ -177,10 +180,6 @@
                                     font-weight: bold;
                                 }
 
-                                .camposOpcionales{
-                                    color: rgb(255, 255, 255);
-                                    font-weight: bold;
-                                }
                             
                                 .titulo-input {
                                     font-weight: bold;
@@ -191,24 +190,23 @@
                                     flex-direction: row;
                                 }
                             
-                                input {
-                                    width: calc(100% - 10px);
-                                    box-sizing: border-box;
-                                }
-                            
-                                .obligatorio {
-                                    border: 2px solid red;
-                                }
+                                        input {
+                                            width: calc(100% - 10px);
+                                            box-sizing: border-box;
+                                        }
+                                    
+                                        .obligatorio {
+                                            border: 2px solid red;
+                                        } 
 
-                                .opcional{
-                                    border: 2px solid green;
-                                }   
-
-                                textarea {
-                                    width: calc(100% - 10px);
-                                    box-sizing: border-box;
-                                }
-                            
+                                        textarea {
+                                            width: calc(100% - 10px);
+                                            box-sizing: border-box;
+                                        }
+                                        
+                                        .btn-submit{
+                                            font-size: 2rem;
+                                        }
                             
                                 .btn-card9 {
                                     background-color: rgba(5, 93, 217, 0.5);
@@ -222,11 +220,13 @@
                                     width: 40%;
                                     border-radius: 15px;
                                     border: 4px solid #000;
+                                    cursor: pointer;
                                 }
             
                 .volver {
                     color: #ffffff;
                     font-weight: bold;
+                    font-size: 2rem;
                 }
 
 }

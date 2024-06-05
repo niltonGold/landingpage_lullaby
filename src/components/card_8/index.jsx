@@ -100,6 +100,10 @@ export const Card_8 = ({onButtonClick}) => {
                                     www.aguainc.com
                         </a>
                             
+                        <a href="https://www.grupoexcellentia.com/" className="enlace-excellentia" target="_blank">
+                                www.grupoexcellentia.com
+                        </a>
+                            
                         {/* SUB Contenedor 3 */}
                         <div className='card_8-sub-container-whasap' onClick={sendMessage} style={{ cursor: 'pointer' }}>
                                 
