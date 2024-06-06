@@ -104,6 +104,12 @@ export const Card_8 = ({onButtonClick}) => {
                                 www.grupoexcellentia.com
                         </a>
                             
+                        <div className='redes-sociales'>
+                                <a className='redes-sociales-icono facebook' href="https://www.facebook.com/" target="_blank"></a>
+                                <a className='redes-sociales-icono instagram' href="https://www.instagram.com/" target="_blank"></a>
+                                <a className='redes-sociales-icono linkedin' href="https://www.linkedin.com/" target="_blank"></a>
+                        </div>
+                            
                         {/* SUB Contenedor 3 */}
                         <div className='card_8-sub-container-whasap' onClick={sendMessage} style={{ cursor: 'pointer' }}>
                                 

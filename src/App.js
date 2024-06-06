@@ -196,10 +196,10 @@ import CookieConsent from 'react-cookie-consent';
 import Cookies from 'js-cookie';
 
 function App() {
+
   const [showCookieConsent, setShowCookieConsent] = useState(false);
 
   useEffect(() => {
-    // Check if the cookie consent has already been given or declined
     const cookieConsent = Cookies.get('cookieConsent');
     if (!cookieConsent) {
       setShowCookieConsent(true);
@@ -234,6 +234,9 @@ function App() {
     }
   };
 
+
+
+  
   return (
     <div className="App-header" id="app-head">
       {showCookieConsent && (
