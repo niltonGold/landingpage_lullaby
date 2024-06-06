@@ -11,6 +11,10 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+        background-image: url('../../imagenes/card_1_Inicio_imagenes/card_1_fondo.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
     }
 
 
@@ -21,57 +25,41 @@
                     text-align: center;
                     background-color: rgb(84, 130, 53,0.8 );
                     padding: 0.5rem;
-                    /* font-size: 2.5vw; */
                     font-size: 0.9rem;
                 }
 
 
                 /* SUB Contenedor 2 */
-                .card_1_sub-container{
-                    background-image: url('../../imagenes/card_1_Inicio_imagenes/card_1_fondo.png');
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 100% 100%;
+                .car_1-sub-title1 {
+                    display: flex;
+                    flex-direction: row;
+                    text-align: justify;
+                    background-color: rgba(5, 93, 217, 0.7);
+                    width: 50%;
+                    align-items: center;
+                    margin-top: 10rem;
+                    margin-bottom: 2rem;
                 }
+                            
 
-
-                            /* SUB Contenedor 2.1 */
-                            .card_1-sub-title1 {
-                                font-weight: bold;
-                                text-align: center;
-                                /* font-size: 2vw; */
-                                /* padding-left: 1rem;
-                                padding-right: 1rem; */
-                                margin-bottom: 4rem;
-                                /* color: #066602; */
-                                font-size: 0.9rem;
+                            .car_1-sub-title1-texto {
                                 color: #ffffff;
-                                background-color: rgb(84, 130, 53, 0.6);
-                                margin-top: 1rem;
-                                /* width: 80%; */
+                                font-weight: bold;
+                                padding: 0.5rem;
+                                text-align: left;
+                                font-size: 0.8rem;
+
                             }
 
 
-                            /* SUB Contenedor 2.2 */
-                            .car_1-sub-title2{
-                                display: flex;
-                                flex-direction: row;
-                                text-align: justify;
-                                background-color: rgba(5, 93, 217, 0.7);
-                                margin-top: 10rem;
-                                width: 50%;
-                                align-items: center;
-                                margin-bottom: 2rem;
-                                
-                            }
-                                        .car_1-sub-title2-texto{
-                                            color: #ffffff;
-                                            font-weight: bold;
-                                            padding: 0.5rem;
-                                            text-align: left;
-                                            font-size: 0.8rem;
-                                            
-                                        }
+                /* SUB Contenedor 3 */
+                .card_1-sub-title2 {
+                    font-weight: bold;
+                    text-align: center;
+                    color: #ffffff;
+                    background-color: rgb(84, 130, 53, 0.6);
+                    padding: 0.5rem;
+                }
 
 
 }
@@ -84,11 +72,16 @@
 /* ************************************************************************ */
 @media (min-width: 769px) {
 
+
     /* CONTENEDOR PRINCIPAL */
     .card_1-container {
         display: flex;
         flex-direction: column;
         width: 80%;
+        background-image: url('../../imagenes/card_1_Inicio_imagenes/card_1_fondo.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
     }
 
 
@@ -97,56 +90,46 @@
                     color: #ffffff;
                     font-weight: bold;
                     text-align: center;
-                    background-color: rgba(84, 130, 53);
+                    background-color: rgba(84, 130, 53, 0.8);
                     padding: 0.5rem;
                     font-size: 3vw;
-                    color: white;
                 }
             
 
-                            /* SUB Contenedor 2 */
-                            .card_1_sub-container {
-                                background-image: url('../../imagenes/card_1_Inicio_imagenes/card_1_fondo.png');
-                                background-repeat: no-repeat;
-                                background-position: center;
-                                background-size: 100% 100%;
-                                }
+                /* SUB Contenedor 2 */
+                .car_1-sub-title1 {
+                    display: flex;
+                    flex-direction: row;
+                    text-align: justify;
+                    background-color: rgba(5, 93, 217, 0.7);
+                    width: 50%;
+                    align-items: center;
+                    margin-top: 25rem;
+                    margin-bottom: 2rem;
+                }
+
+
+                            .car_1-sub-title1-texto {
+                                color: #ffffff;
+                                font-weight: bold;
+                                padding: 0.5rem;
+                                text-align: left;
+                                font-size: 2vw;
+                            }
+
             
-                                        /* SUB Contenedor 2.1 */
-                                        .card_1-sub-title1 {
-                                            font-weight: bold;
-                                            text-align: center;
-                                            font-size: 2vw;
-                                            padding-left: 1rem;
-                                            padding-right: 1rem;
-                                            margin-bottom: 4rem;
-                                            background-color: rgb(84, 130, 53, 0.6);
-                                            margin-top: 1rem;
-                                            color: #ffffff;
-                                        }
+                /* SUB Contenedor 3 */
+                .card_1-sub-title2 {
+                    font-weight: bold;
+                    text-align: center;
+                    color: #ffffff;
+                    background-color: rgb(84, 130, 53, 0.6);
+                    padding: 0.5rem;
+                    padding-right: 1rem;
+                    margin-top: 1rem;
+                }
                                     
                                     
-                                        /* SUB Contenedor 2.2 */
-                                        .car_1-sub-title2 {
-                                            display: flex;
-                                            flex-direction: row;
-                                            text-align: justify;
-                                            background-color: rgba(5, 93, 217, 0.7);
-                                            margin-top: 25rem;
-                                            width: 50%;
-                                            align-items: center;
-                                            margin-bottom: 2rem;
-                                        }
-                                                
-                                                    .car_1-sub-title2-texto {
-                                                        color: #ffffff;
-                                                        font-weight: bold;
-                                                        padding: 0.5rem;
-                                                        text-align: left;
-                                                        font-size: 1.5vw;
-                                                    }
-
-
 }
 
 

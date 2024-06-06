@@ -13,12 +13,8 @@ export const Card_7 = () => {
                     "DOS DÉCADAS DE LIDERAZGO EN ENERGÍA Y TRTAMIENTO DE AGUA NOS RESPALDAN"
                 </div>
 
-              
+                                            
                 {/* SUB Contenedor 2 */}
-                <div className='card_7-sub-container' />
-                            
-                                    
-                {/* SUB Contenedor 3 */}
                 <div className='card_7_certificaciones'>
                           
                             <div className='card_7-certificaciones-texto-informacion-container'>

@@ -10,6 +10,10 @@
     .card_2-container {
         display: flex;
         flex-direction: column;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../imagenes/card_2_imagenes/card_2_fondo.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
     }
 
 
@@ -18,35 +22,27 @@
                     color: #ffffff;
                     font-weight: bold;
                     text-align: center;
-                    background-color: #548235;
+                    background-color:rgb(84, 130, 53, 0.8);
                     padding: 0.5rem;
                     font-size: 0.9rem;
                 }
 
 
                 /* SUB Contenedor 2 */
-                .card_2-sub-container{
-                    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../imagenes/card_2_imagenes/card_2_fondo.jpg');
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 100% 100%;
+                .card_2-sub-container-texto {
+                    display: flex;
+                    flex-direction: row;
+                    text-align: left;
+                    background-color: rgba(5, 93, 217, 0.7);
+                    width: 60%;
+                    align-items: center;
+                    font-size: 0.8rem;
+                    color: #ffffff;
+                    font-weight: bold;
+                    padding: 0.5rem;
+                    margin-top: 10rem;
+                    margin-bottom: 2rem;
                 }
-
-                            /* SUB Contenedor 2.1 */
-                            .card_2-sub-container-texto {
-                                display: flex;
-                                flex-direction: row;
-                                text-align: left;
-                                background-color: rgba(5, 93, 217, 0.7);
-                                width: 60%;
-                                align-items: center;
-                                margin-top: 10rem;
-                                font-size: 0.8rem;
-                                color: #ffffff;
-                                font-weight: bold;
-                                padding: 0.5rem;
-                                margin-bottom: 2rem;
-                            }
     
 
 }
@@ -67,6 +63,10 @@
         display: flex;
         flex-direction: column;
         width: 80%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../imagenes/card_2_imagenes/card_2_fondo.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
     }
 
 
@@ -75,37 +75,27 @@
                     color: #ffffff;
                     font-weight: bold;
                     text-align: center;
-                    background-color: #548235;
+                    background-color:rgb(84, 130, 53, 0.8);
                     padding: 0.5rem;
                     font-size: 3vw;
                 }
 
 
                 /* SUB Contenedor 2 */
-                .card_2-sub-container {
-                    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../imagenes/card_2_imagenes/card_2_fondo.jpg');
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 100% 100%;
+                .card_2-sub-container-texto {
+                    display: flex;
+                    flex-direction: row;
+                    text-align: left;
+                    background-color: rgba(5, 93, 217, 0.7);
+                    width: 50%;
+                    align-items: center;
+                    font-size: 2vw;
+                    color: #ffffff;
+                    font-weight: bold;
+                    padding: 0.5rem;
+                    margin-top: 40rem;
+                    margin-bottom: 2rem;
                 }
-
-
-                            /* SUB Contenedor 2.1 */
-                            .card_2-sub-container-texto {
-                                display: flex;
-                                flex-direction: row;
-                                text-align: left;
-                                background-color: rgba(5, 93, 217, 0.7);
-                                width: 50%;
-                                margin-left: 1rem;
-                                align-items: center;
-                                margin-top: 40rem;
-                                font-size: 2vw;
-                                color: #ffffff;
-                                font-weight: bold;
-                                padding: 0.5rem;
-                                margin-bottom: 2rem;
-                            }
 
 
 }

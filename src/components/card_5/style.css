@@ -6,6 +6,11 @@
 
         /* CONTENEDOR PRINCIPAL */
         .card_5-container{
+            width: 100%;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../imagenes/card_5_imagenes/card_5_fondo.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
         }
 
 
@@ -14,21 +19,12 @@
                         color: #ffffff;
                         font-weight: bold;
                         text-align: center;
-                        background-color: #548235;
+                        background-color:rgb(84, 130, 53, 0.8);
                         padding: 0.5rem;
                         font-size: 0.9rem;
+                        margin-bottom: 30rem;
                     }
 
-
-                    /* SUB Contenedor 2 */
-                    .card_5-sub-container{
-                        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../imagenes/card_5_imagenes/card_5_fondo.jpg');
-                        background-repeat: no-repeat;
-                        background-position: center;
-                        background-size: 100% 100%;
-                        padding-bottom: 20rem;
-                    }
-    
 
 }
 
@@ -41,28 +37,22 @@
         /* CONTENEDOR PRINCIPAL */
         .card_5-container {
             width: 80%;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../imagenes/card_5_imagenes/card_5_fondo.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
         }
 
 
-                 /* SUB Contenedor 1 */
+                 /* SUB Contenedor */
                 .card_5-banner-tilte {
                     color: #ffffff;
                     font-weight: bold;
                     text-align: center;
-                    background-color: #548235;
+                    background-color: rgb(84, 130, 53, 0.8);
                     padding: 0.5rem;
                     font-size: 3vw;
+                    margin-bottom: 40rem;
                 }
-
-
-                /* SUB Contenedor 2 */
-                .card_5-sub-container {
-                    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../imagenes/card_5_imagenes/card_5_fondo.jpg');
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: 100% 100%;
-                    padding-top: 50rem;
-                }
-
 
 }

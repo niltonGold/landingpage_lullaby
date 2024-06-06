@@ -8,77 +8,73 @@
 
     /* CONTENEDOR PRINCIPAL */
         .card_6-container {
-            background-color: rgb(255, 255, 255);
+            width: 100%;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../imagenes/card_6_imagenes/card_6_fondo.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100% 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
         }
     
     
-                        /* SUB Contenedor 1 */
-                        .card_6-banner-tilte {
-                            color: #ffffff;
-                            font-weight: bold;
-                            text-align: center;
-                            background-color: #548235;
-                            padding: 0.5rem;
-                            font-size: 0.9rem;
-                        }
+                    /* SUB Contenedor 1 */
+                    .card_6-banner-tilte {
+                        color: #ffffff;
+                        font-weight: bold;
+                        text-align: center;
+                        background-color:rgb(84, 130, 53, 0.8);
+                        padding: 0.5rem;
+                        font-size: 0.9rem;
+                    }
                     
+
+                    /* SUB Contenedor 2 */
+                    .card_6-sub-container-texto-parrafo1 {
+                        font-size: 0.8rem;
+                        text-align: left;
+                        background-color: rgba(5, 93, 217, 0.7);
+                        width: 80%;
+                        padding: 0.5rem;
+                        color: #ffffff;
+                        font-weight: bold;
+                        margin-top: 15rem;
+                    }
+
+
+                                b{
+                                    font-size: 0.9rem;
+                                    text-decoration: underline;
+                                }
                     
-                        /* SUB Contenedor 2 */
-                        .card_6-sub-container {
-                            display: flex;
-                            flex-direction: column;
-                            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url('../../imagenes/card_6_imagenes/card_6_fondo.jpg');
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            background-size: 100% 100%;
-                            padding-top: 15rem;
-                        }
-                                                
-                    
-                                        .card_6-sub-container-texto {
-                                            display: flex;
-                                            flex-direction: column;
-                                            width: 100%;
-                                            /* background-color: rgba(5, 93, 217, 0.7); */
-                                            gap: 1rem;
-                                            color: #ffffff;
-                                            font-size: 3vw;
-                                            /* padding: 0.5rem; */
-                                        }
-                                    
-                                    
-                                                    .card_6-sub-container-texto-parrafo1 {
-                                                        font-size: 0.8rem;
-                                                        text-align: justify;
-                                                        background-color: rgba(5, 93, 217, 0.7);
-                                                        width: 80%;
-                                                        padding: 0.5rem;
-                                                    }
-                                                   
-
-                                                    .card_6-sub-container-texto-parrafo2 {
-                                                        font-size: 0.8rem;
-                                                        text-align: justify;
-                                                        /* background-color: rgba(5, 93, 217, 0.7); */
-                                                        width: 100%;
-                                                        display: flex;
-                                                        justify-content: flex-end;
-                                                        
-                                                    }
-
-                                                                .card_6-sub-container-texto-parrafo2-sub{
-                                                                    background-color: rgba(5, 93, 217, 0.7);
-                                                                    width: 80%;
-                                                                    padding: 0.5rem;
-                                                                }
+                                
+                    /* SUB Contenedor 3 */
+                    .card_6-sub-container-texto-parrafo2 {
+                        width: 100%;
+                        display: flex;
+                        justify-content: flex-end;
+                    }
 
 
-                                                    .card_6-sub-container-texto-parrafo3 {
-                                                        font-size: 0.8rem;
-                                                        text-align: center;
-                                                        background-color: #548235;
-                                                        padding: 0.5rem;
-                                                    }
+                                .card_6-sub-container-texto-parrafo2-texto{
+                                    background-color: rgba(5, 93, 217, 0.7);
+                                    width: 80%;
+                                    padding: 0.5rem;
+                                    color: #ffffff;
+                                    font-weight: bold;
+                                    text-align: right;
+                                }
+
+
+                    /* SUB Contenedor 4 */
+                    .card_6-sub-container-texto-parrafo3 {
+                        font-weight: bold;
+                        text-align: center;
+                        color: #ffffff;
+                        background-color:rgb(84, 130, 53, 0.8);
+                        padding: 0.5rem;
+                    }
                                                             
 
 }
@@ -95,72 +91,70 @@
     
     /* CONTENEDOR PRINCIPAL */
     .card_6-container {
-        background-color: rgb(255, 255, 255);
         width: 80%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../imagenes/card_6_imagenes/card_6_fondo.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
     }
 
 
-            /* SUB Contenedor 1 */
-            .card_6-banner-tilte {
-                color: #ffffff;
-                font-weight: bold;
-                text-align: center;
-                background-color: #548235;
-                padding: 0.5rem;
-                font-size: 3vw;
-            }
+                /* SUB Contenedor 1 */
+                .card_6-banner-tilte {
+                    color: #ffffff;
+                    font-weight: bold;
+                    text-align: center;
+                    background-color:rgb(84, 130, 53, 0.8);
+                    padding: 0.5rem;
+                    font-size: 3vw;
+                }
 
 
-            /* SUB Contenedor 2 */
-            .card_6-sub-container {
-                display: flex;
-                flex-direction: column;
-                background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../imagenes/card_6_imagenes/card_6_fondo.jpg');
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: 100% 100%;
-                padding-top: 15rem;
-            }
+                /* SUB Contenedor 2 */
+                .card_6-sub-container-texto-parrafo1 {
+                    text-align: left;
+                    background-color: rgba(5, 93, 217, 0.7);
+                    width: 50%;
+                    padding: 0.5rem;
+                    color: #ffffff;
+                    font-weight: bold;
+                    margin-top: 10rem;
+                }
 
-
-                    .card_6-sub-container-texto {
-                        display: flex;
-                        flex-direction: column;
-                        width: 100%;
-                        gap: 2rem;
-                        color: #ffffff;
-                        font-size: 1.5vw;
-                    }
-
-
-                            .card_6-sub-container-texto-parrafo1 {
-                                text-align: justify;
-                                background-color: rgba(5, 93, 217, 0.7);
-                                width: 80%;
-                                padding: 0.5rem;
+                            b {
+                                font-size: 1rem;
+                                text-decoration: underline;
                             }
 
 
-                            .card_6-sub-container-texto-parrafo2 {
-                                text-align: justify;
-                                /* background-color: rgba(5, 93, 217, 0.7); */
-                              
-                                display: flex;
-                                justify-content: flex-end;
-                            }
+                /* SUB Contenedor 3 */
+                .card_6-sub-container-texto-parrafo2 {
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                }
                                     
-                                    .card_6-sub-container-texto-parrafo2-sub {
-                                        background-color: rgba(5, 93, 217, 0.7);
-                                        width: 80%;
-                                        padding: 0.5rem;
-                                    }
-
-                            .card_6-sub-container-texto-parrafo3 {
-                                text-align: center;
-                                background-color: #548235;
+                            .card_6-sub-container-texto-parrafo2-texto {
+                                background-color: rgba(5, 93, 217, 0.7);
+                                width: 50%;
                                 padding: 0.5rem;
-                                
+                                color: #ffffff;
+                                font-weight: bold;
+                                text-align: right;
                             }
+
+
+                /* SUB Contenedor 4 */
+                .card_6-sub-container-texto-parrafo3 {
+                    font-weight: bold;
+                    text-align: center;
+                    color: #ffffff;
+                    background-color: rgb(84, 130, 53, 0.8);
+                    padding: 0.5rem;
+                }
 
                                                 
 }

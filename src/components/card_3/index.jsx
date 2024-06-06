@@ -5,6 +5,7 @@ import { useMediaQuery } from '@mui/material';
 
 export const Card_3 = () => {
 
+
   const isLargeScreen = useMediaQuery( '(min-width:769px)' );
   
   const sendMessage = () => {
@@ -16,34 +17,30 @@ export const Card_3 = () => {
 
 
 
+
   return (
     <>
       {/* CONTENEDOR PRINCIPAL */}
       <div className='card_3-container'>
 
-        
+  
               {/* SUB Contenedor 1 */}
               <div className='card_3-banner-tilte'>
                     " CON MÁS DE 2000 PROYECTOS Y CERTIFICACIONES ISO, GARANTIZAMOS RESULTADOS "
               </div>
-    
+              
 
               {/* SUB Contenedor 2 */}
-              <div className='card_3-sub-container'>
-      
-                    <div className='card_3-sub-container-iconwhasap-parrafo1' onClick={sendMessage} style={{ cursor: 'pointer' }}>
-                            
-                            <WhatsAppIcon sx={{ color: '#ffffff', fontSize: isLargeScreen ? 120 : 40 }} />
+              <div className='card_3-sub-container-iconwhasap-parrafo' onClick={sendMessage} style={{ cursor: 'pointer' }}>
+                      <WhatsAppIcon sx={{ color: '#ffffff', fontSize: isLargeScreen ? 120 : 40 }} />
 
-                            <div className='card_3-sub-container-parrafo1'>
-                                  Mándanos un WhatsApp con la palabra “AHORRAR” y 
-                                  transforma tus embalses en energía limpia.
-                            </div>
-                    
-                    </div>
-                
+                      <div className='card_3-sub-container-parrafo'>
+                            Mándanos un WhatsApp con la palabra “AHORRAR” y 
+                            transforma tus embalses en energía limpia.
+                      </div>
               </div>
-  
+          
+        
       </div>
     </>
   )
