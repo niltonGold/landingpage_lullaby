@@ -76,7 +76,9 @@ function App() {
                                 display: "flex",
                                 alignItems: "center",
                                 alignSelf: "center",
-                                justifyContent: 'center'
+                                justifyContent: 'center',
+                                paddingBottom: '5rem'
+
                               }}
                               buttonStyle={{
                                 fontSize: "18px", // Ajusta el tamaño del texto del botón
