@@ -127,7 +127,7 @@ export const Card_8 = ({onButtonClick}) => {
                     
                                 <a href="#form-contact" className="enlace" onClick={onButtonClick}>
                                             
-                                        <div>
+                                        <div className='enlace-texto'>
                                                 ¡Tu diagnóstico energético “Gratuito” por tiempo limitado, *CLIK aquí!
                                         </div>
                                                 

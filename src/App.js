@@ -12,7 +12,7 @@ import Card_9_formContac from './components/card_9_formContac';
 import { Card_8 } from './components/card_8';
 import { Footer } from './components/footer';
 import { Footer_flotante } from './components/footer_flotante';
-// import CookieConsent from 'react-cookie-consent';
+import CookieConsent from 'react-cookie-consent';
 
 
 
@@ -49,14 +49,22 @@ function App() {
   const handleButtonClickVolver = () => {
     // alert( 'Función activada en App!' );
     setPaginaVisible( true );
+    const formContactElement = document.getElementById('app-head');
+    if (formContactElement) {
+      formContactElement.scrollIntoView({ behavior: 'smooth' });
+    }
   };
   
+
+
+
+
   return (
-    <div className="App-header">
+    <div className="App-header" id='app-head'>
       
 
       
-        {/* {showCookieConsent && ( 
+        {showCookieConsent && ( 
               <div className="cookie-consent-overlay"> 
                 <CookieConsent
                           location="bottom"
@@ -86,7 +94,7 @@ function App() {
                       </a>
                 </CookieConsent>
               </div>
-        )} */}
+        )}
 
 
             <div className={ paginaVisible ? 'main-container' : 'main-container-hide' }> 
@@ -158,7 +166,7 @@ function App() {
           </div>
       
               <div id="form-contact" className={ paginaVisible ? 'App-card9-hide' : 'App-card9' }>
-        <Card_9_formContac  Volver={ handleButtonClickVolver }/>
+                    <Card_9_formContac  Volver={ handleButtonClickVolver }/>
                     {/* <button  className='btn-card9' onClick={ handleButtonClickk }>Volver</button> */}
               </div>
 

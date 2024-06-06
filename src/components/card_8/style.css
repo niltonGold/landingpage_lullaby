@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Biome&display=swap');
-
-
-
 
 /* ************************************************************************ */
 /* CONFIGURACION PARA VER LA LANDINGPAGE EN PANTALLAS MENORES A 768 PIXELES */
@@ -28,7 +24,7 @@
                     color: #ffffff;
                     font-weight: bold;
                     text-align: center;
-                    background-color: #548235;
+                    background-color: rgb(84, 130, 53, 0.8);
                     padding: 1rem;
                     font-size: 0.9rem;
                 }
@@ -179,6 +175,9 @@
                     text-align: center;
                     background-color: rgba(5, 93, 217, 0.7);
                     padding: 0.5rem;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
                 }
             
 
@@ -188,6 +187,12 @@
                                 display: flex;
                                 flex-direction: row;
                                 font-size: 0.8rem;
+                            }
+
+                            .enlace-texto{
+                                display: flex;
+                                align-items: center;
+                                align-self: center;
                             }
 
 
@@ -387,5 +392,11 @@
                                 flex-direction: row;
                             }
 
+                            
+                            .enlace-texto {
+                                display: flex;
+                                align-items: center;
+                                align-self: center;
+                            }
 
 }

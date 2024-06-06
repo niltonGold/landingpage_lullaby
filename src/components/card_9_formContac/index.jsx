@@ -16,6 +16,7 @@ const initialFormData = {
 
 const Card_9_formContac = ({Volver}) => {
 
+
       const isLargeScreen = useMediaQuery( '(min-width:769px)' );
       
       const [formData, setFormData] = useState( initialFormData );
@@ -31,15 +32,15 @@ const Card_9_formContac = ({Volver}) => {
       };
 
       const handleBannerClick = () => {
-        setFormVisible(!formVisible); // Cambia la visibilidad del formulario
+        setFormVisible(!formVisible);
       };
       
       const handleSubmit = (e) => {
             e.preventDefault();
-                  sendEmail( formData );
+            sendEmail( formData );
             console.log( formData );
             setFormData( initialFormData );
-                  setFormVisible(false); 
+            setFormVisible(false); 
       };
 
       const sendEmail = (data) => {
@@ -53,9 +54,7 @@ const Card_9_formContac = ({Volver}) => {
                   });
       };
 
-      const onButtonClickVolver = () => {
-            console.log( 'hola desde card9' );
-}
+
 
 
   return (

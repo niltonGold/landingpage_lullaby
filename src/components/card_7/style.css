@@ -93,26 +93,21 @@
 /* CONTENEDOR PRINCIPAL */
 .card_7-container {
     width: 80%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../imagenes/card_7_imagenes/card_7_fondo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
 }
+
 
             /* SUB Contenedor 1 */
             .card_7-banner-tilte {
                 color: #ffffff;
                 font-weight: bold;
                 text-align: center;
-                background-color: #548235;
+                background-color: rgb(84, 130, 53, 0.8);
                 padding: 0.5rem;
                 font-size: 3vw;
-            }
-
-
-            /* SUB Contenedor 2 */
-            .card_7-sub-container {
-                background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../../imagenes/card_7_imagenes/card_7_fondo.png');
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: 100% 100%;
-                padding-top: 30rem;
             }
 
 
@@ -124,6 +119,7 @@
                 justify-content: center;
                 gap: 3rem;
                 padding: 0.5rem;
+                margin-top: 30rem;
             }
 
 
