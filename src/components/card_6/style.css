@@ -32,7 +32,7 @@
 
                     /* SUB Contenedor 2 */
                     .card_6-sub-container-texto-parrafo1 {
-                        font-size: 0.8rem;
+                        font-size: 0.7rem;
                         text-align: left;
                         background-color: rgba(5, 93, 217, 0.7);
                         width: 80%;
@@ -44,7 +44,7 @@
 
 
                                 b{
-                                    font-size: 0.9rem;
+                                    font-size: 0.7rem;
                                     text-decoration: underline;
                                 }
                     
@@ -58,6 +58,7 @@
 
 
                                 .card_6-sub-container-texto-parrafo2-texto{
+                                    font-size: 0.7rem;
                                     background-color: rgba(5, 93, 217, 0.7);
                                     width: 80%;
                                     padding: 0.5rem;
@@ -74,6 +75,7 @@
                         color: #ffffff;
                         background-color:rgb(84, 130, 53, 0.8);
                         padding: 0.5rem;
+                        font-size: 0.6rem;
                     }
                                                             
 
