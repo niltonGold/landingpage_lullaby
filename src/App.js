@@ -65,35 +65,41 @@ function App() {
 
       
         {showCookieConsent && ( 
-              <div className="cookie-consent-overlay"> 
-                <CookieConsent
-                          location="bottom"
-                          buttonText="Aceptar"
-                          declineButtonText="Rechazar"
-                          cookieName="myAwesomeCookieName"
-                          expires={150}
-                          enableDeclineButton
-                          onAccept={handleAcceptCookies}
-                          onDecline={handleDeclineCookies}
-                          style={{
-                            fontSize: "18px", // Ajusta el tamaño del texto
-                            Width: "100%", // Ajusta el ancho máximo del componente
-                            height: "40%",
-                            display: "flex",
-                            alignItems: "center",
-                            alignSelf: "center"
-
-                          }}
-                          buttonStyle={{
-                            fontSize: "18px", // Ajusta el tamaño del texto del botón
-                            padding: "10px 20px", // Ajusta el espacio dentro del botón
-                          }} >
-                      Este sitio web utiliza cookies para mejorar la experiencia del usuario.{" "}
-                      <a style={{ color: "#4e503b", textDecoration:"underline" }} onClick={handleDocumentClickPoliticaDeCookies}>
-                        Leer más
-                      </a>
-                </CookieConsent>
-              </div>
+            <div className="cookie-consent-overlay"> 
+              <CookieConsent  location="bottom"  buttonText="Aceptar"  declineButtonText="Rechazar"
+                              cookieName="myAwesomeCookieName"  expires={150}  enableDeclineButton
+                              onAccept={handleAcceptCookies}  onDecline={handleDeclineCookies}
+                              style={{
+                                fontSize: "18px", // Ajusta el tamaño del texto
+                                Width: "100%", // Ajusta el ancho máximo del componente
+                                height: "40%",
+                                display: "flex",
+                                alignItems: "center",
+                                alignSelf: "center",
+                                justifyContent: 'center'
+                              }}
+                              buttonStyle={{
+                                fontSize: "18px", // Ajusta el tamaño del texto del botón
+                                padding: "10px 20px", // Ajusta el espacio dentro del botón
+                              }}
+                              declineButtonStyle={{
+                                fontSize: "18px",
+                                padding: "10px 20px",
+                              }}
+                                >
+                        <div className='cookie-texto-enlace-container'>
+                            <div className='cookie-texto'>
+                                Esta página web utiliza cookies propias y de terceros para fines técnicos y
+                                analíticos, así como para elaborar perfiles en base a tus hábitos de navegación
+                                y mostrarte publicidad relacionada con tus preferencias. {" "}
+                            
+                                <a className='cookie-enlace' style={{ color: "#4e503b", textDecoration: "underline" }} onClick={handleDocumentClickPoliticaDeCookies}>
+                                    Leer más
+                                </a>
+                            </div>
+                        </div>
+              </CookieConsent>
+            </div>
         )}
 
 

@@ -99,6 +99,19 @@ body {
   /* Asegura que el padding no afecte el tamaño total */
 }
 
-.cookie_container{
-  height: 40%;
+.cookie-texto-enlace-container{
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
 }
+
+    .cookie-texto{
+        /* background-color: bisque; */
+        width: 80%;
+    }
+
+    .cookie-enlace{
+        cursor: pointer;
+    }
