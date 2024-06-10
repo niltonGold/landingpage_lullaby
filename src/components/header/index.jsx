@@ -25,7 +25,7 @@ export const Header = () => {
     { label: 'INICIO', href: '#Inicio' },
     { label: 'PORQUE', href: '#Por_que' },
     { label: 'QUIENES SOMOS', href: '#QuienesSomos' },
-    { label: 'INNOVACIÓN', href: '#Innovacion' },
+    { label: 'SFS', href: '#SFS' },
     { label: 'AHORRO', href: '#Ahorro' },
     { label: 'EXPERIENCIA', href: '#Experiencia' },
     { label: 'CONTACTO', href: '#Contacto' },
@@ -74,11 +74,11 @@ export const Header = () => {
                                   ))}
                                 </Menu>
                                 
-                                <div class="cont">
-                                    <a href="http://aguainc.com/" target="_blank" class="aguainclogoimg"></a>
+                                <div className="cont">
+                                    <a href="http://aguainc.com/" target="_blank" className="aguainclogoimg"></a>
                                 </div>
-                                <div class="cont">
-                                    <a href="https://www.grupoexcellentia.com/" target="_blank" class="excellentialogoimg"></a>
+                                <div className="cont">
+                                    <a href="https://www.grupoexcellentia.com/" target="_blank" className="excellentialogoimg"></a>
                                 </div>
 
                         </>
@@ -86,11 +86,11 @@ export const Header = () => {
                         <>
 
                 
-                                <div class="cont">
-                                    <a href="http://aguainc.com/" target="_blank" class="aguainclogoimg"></a>
+                                <div className="cont">
+                                    <a href="http://aguainc.com/" target="_blank" className="aguainclogoimg"></a>
                                 </div>
-                                <div class="cont">
-                                    <a href="https://www.grupoexcellentia.com/" target="_blank" class="excellentialogoimg"></a>
+                                <div className="cont">
+                                    <a href="https://www.grupoexcellentia.com/" target="_blank" className="excellentialogoimg"></a>
                                 </div>
                                 <Box sx={{ display: 'flex', marginLeft: 'auto', flexWrap: 'wrap', justifyContent: 'flex-end' }}>
                                 

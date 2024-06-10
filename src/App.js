@@ -120,7 +120,7 @@ function App() {
           <Card_3 />
         </div>
 
-        <div id="Innovacion" className="App-card">
+        <div id="SFS" className="App-card">
           <Card_4 />
         </div>
 

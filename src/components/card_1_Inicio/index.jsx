@@ -43,7 +43,7 @@ export const Card_1_Inicio = () => {
         
               {/* SUB Contenedor 3 */}
               <div className="card_1-sub-title2">
-                    " Aprovecha al máximo cada m<sup>2</sup> de agua con la tecnología SFS "
+                    " Aprovecha cada m<sup>2</sup> de agua con la estructura flotante SFS "
               </div>
                 
       </div>
