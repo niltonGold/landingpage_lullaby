@@ -73,21 +73,25 @@ export const Header = () => {
                                     </MenuItem>
                                   ))}
                                 </Menu>
-
-                                <a href="http://aguainc.com/" target="_blank"  className='aguainclogoimg' />
                                 
-                                <a href="https://www.grupoexcellentia.com/" target="_blank" className='excellentialogoimg' />
-
+                                <div class="cont">
+                                    <a href="http://aguainc.com/" target="_blank" class="aguainclogoimg"></a>
+                                </div>
+                                <div class="cont">
+                                    <a href="https://www.grupoexcellentia.com/" target="_blank" class="excellentialogoimg"></a>
+                                </div>
 
                         </>
                       ) : (
                         <>
 
                 
-                                <a href="http://aguainc.com/" target="_blank"  className='aguainclogoimg' />
-                                
-                                <a href="https://www.grupoexcellentia.com/" target="_blank" className='excellentialogoimg' />
-                                
+                                <div class="cont">
+                                    <a href="http://aguainc.com/" target="_blank" class="aguainclogoimg"></a>
+                                </div>
+                                <div class="cont">
+                                    <a href="https://www.grupoexcellentia.com/" target="_blank" class="excellentialogoimg"></a>
+                                </div>
                                 <Box sx={{ display: 'flex', marginLeft: 'auto', flexWrap: 'wrap', justifyContent: 'flex-end' }}>
                                 
                                     

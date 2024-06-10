@@ -1,4 +1,4 @@
-a.aguainclogoimg, a.excellentialogoimg {
+/* a.aguainclogoimg, a.excellentialogoimg {
     display: block;
     background-size: contain;
     background-position: center;
@@ -8,18 +8,45 @@ a.aguainclogoimg, a.excellentialogoimg {
 
 .aguainclogoimg {
     background-image: url('../../imagenes/header_imagenes/header_aguainc.jpg');
+    border-radius: 10px;
+}
+
+.excellentialogoimg {
+    background-image: url('../../imagenes/header_imagenes/header_excellentia.jpg');
+    border-radius: 10px;
+    background-color: aqua;
+} */
+
+
+/* Estilos para los enlaces */
+a.aguainclogoimg, a.excellentialogoimg {
+    display: block;
+    background-size: 100% 100%; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%; /* Utiliza el 100% del ancho del contenedor padre */
+    height: 100%; /* Utiliza el 100% de la altura del contenedor padre */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+/* Imágenes de fondo */
+.aguainclogoimg {
+    background-image: url('../../imagenes/header_imagenes/header_aguainc.jpg');
 }
 
 .excellentialogoimg {
     background-image: url('../../imagenes/header_imagenes/header_excellentia.jpg');
 }
 
-
-
-
-
-
-
-
-
-
+/* Estilos para los contenedores */
+.cont {
+    display: inline-block; /* Hace que los contenedores estén uno al lado del otro, si es necesario */
+    width: 140px; /* Ajusta el tamaño del contenedor */
+    height: 50px; /* Ajusta el tamaño del contenedor */
+    margin: 10px; /* Añade un pequeño margen alrededor de los contenedores */
+    border-radius: 10px; /* Redondea los bordes de los contenedores */
+    overflow: hidden; /* Asegura que los bordes redondeados se apliquen correctamente */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
