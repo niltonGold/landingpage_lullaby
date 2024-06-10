@@ -131,7 +131,7 @@ function App() {
         <div id="Ahorro" className="App-card">
           <Card_6 />
         </div>
-
+ 
         <div id="Experiencia" className="App-card">
           <Card_7 />
         </div>
@@ -141,6 +141,7 @@ function App() {
         </div>
 
         <Footer />
+
         <Footer_flotante onsendMessage={handleButtonClick} />
       </div>
 

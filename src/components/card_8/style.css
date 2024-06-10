@@ -175,7 +175,7 @@
                     text-align: center;
                     background-color: rgba(5, 93, 217, 0.7);
                     padding: 0.5rem;
-                    width: 100%;
+                    /* width: 100%; */
                     display: flex;
                     justify-content: center;
                 }
