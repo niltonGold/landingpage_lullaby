@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Box, AppBar, Toolbar, IconButton, Menu, MenuItem, Button, useMediaQuery } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
-import { useTheme } from '@mui/material/styles';
 import './style.css';
 
 
@@ -59,13 +58,12 @@ export const Header = () => {
                                   anchorEl={anchorEl}
                                   open={Boolean(anchorEl)}
                                   onClose={handleMenuClose}
-                                  // sx={{ bgcolor: 'rgba(114, 144, 40, 0.8)' }} // Cambia el color de fondo del menú
                                 >
                                   {menuItems.map((item) => (
                                     <MenuItem
                                       onClick={handleMenuClose}
                                       key={item.label}
-                                      sx={{ bgcolor: 'rgba(114, 144, 40, 0.6)' }} // Cambia el color de fondo de cada elemento del menú
+                                      sx={{ bgcolor: 'rgba(114, 144, 40, 0.6)' }}
                                     >
                                       <a href={item.href} style={{ textDecoration: 'none', color: 'inherit' }}>
                                         {item.label}
