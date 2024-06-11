@@ -44,7 +44,7 @@ const Card_9_formContac = ({Volver}) => {
       };
 
       const sendEmail = (data) => {
-            emailjs.send('service_aiddyaw', 'template_xyhrz9u', data, 'r_-18lB31SJkvZzPx')
+            emailjs.send('service_ts829qq', 'template_dgdhdzh', data, '01kETIMSxzxzI08Gq')
                   .then((response) => {
                   console.log('Correo enviado exitosamente!', response.status, response.text);
                   alert('Mensaje enviado exitosamente!');
