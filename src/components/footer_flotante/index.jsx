@@ -8,7 +8,7 @@ import AdsClickIcon from '@mui/icons-material/AdsClick';
 
 
 const sendMessage = () => {
-  const phoneNumber = '+34624030926';
+  const phoneNumber = '+34650347741';
   const message = 'Ahorra';
   const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
   window.open(whatsappUrl, '_blank');
