@@ -9,7 +9,7 @@ export const Card_1_Inicio = () => {
   const isLargeScreen = useMediaQuery( '(min-width:769px)' );
   
   const sendMessage = () => {
-      const phoneNumber = '+34624030926gti';
+      const phoneNumber = '+34650347741';
       const message = 'Ahorra';
       const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
       window.open(whatsappUrl, '_blank');
