@@ -9,7 +9,7 @@ export const Card_8 = ({onButtonClick}) => {
     const isLargeScreen = useMediaQuery( '(min-width:769px)' );
     
     const sendMessage = () => {
-        const phoneNumber = '+34624030926';
+        const phoneNumber = '+34650347741';
         const message = 'Ahorra';
         const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
         window.open(whatsappUrl, '_blank');
@@ -96,13 +96,13 @@ export const Card_8 = ({onButtonClick}) => {
                              
                             </div>
                             
-                        <a href="http://aguainc.com/" className="enlace-aguainc" target="_blank">
+                        {/* <a href="http://aguainc.com/" className="enlace-aguainc" target="_blank">
                                     www.aguainc.com
                         </a>
                             
                         <a href="https://www.grupoexcellentia.com/" className="enlace-excellentia" target="_blank">
                                 www.grupoexcellentia.com
-                        </a>
+                        </a> */}
                             
                         <div className='redes-sociales'>
                                 <a className='redes-sociales-icono facebook' href="https://www.facebook.com/" target="_blank"></a>
